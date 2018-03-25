@@ -4,7 +4,7 @@
     },
     "scripts": {
     "post-install-cmd": [
-            "chmod +x vendor/tmd/auto-git-pull/scripts/git-pull.sh"
+            "chmod +x scripts/git-pull.sh"
         ]
     }
 }
