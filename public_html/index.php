@@ -6,6 +6,7 @@
 </HEAD>
 <BODY>
 Hello, welcome to this HTML 4.01 document.
+We'll be changing more soon.
 <script type="text/JavaScript">
     var snd = new wiiSound();
     snd.playBGM();
