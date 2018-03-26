@@ -19,12 +19,6 @@
 <!--  Technology, Inc.                                       -->
 <!--  -----------------------------------------------------  -->
 <?xml version="1.0" encoding="utf-8"?>
-<?php
-// Include config file
-require_once 'http://spot.norment.in.nf/spotstoreset.php';
-    // Close connection
-    mysqli_close($link);
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Flush buffer before setting locale to ensure encoding is preserved -->
