@@ -803,9 +803,6 @@ function initPage()
                  onmouseout="this.style.backgroundColor='#FFFFFF'" onmousedown="if(kbd) kbd.call(cKT_NoLFS)"
              value="" size="28" maxlength="25">
     </div>
-	<div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
-            </div>
     <div id="MemberFrame02">
 	<img src="/oss/oss/common/images//banner/member_frame02.gif" width="100%" height="100%" /></div>
     
