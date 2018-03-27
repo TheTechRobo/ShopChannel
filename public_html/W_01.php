@@ -1,5 +1,3 @@
-<!--Do not modify this file yet, I still need to do something with it before you can butcher it.
-DO NOT EDIT YET, I NEED TO BACK IT UP FIRST, DO NOT EDIT, I NEED TO BACK IT UP.-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -80,8 +78,6 @@ DO NOT EDIT YET, I NEED TO BACK IT UP FIRST, DO NOT EDIT, I NEED TO BACK IT UP.-
 </head>
 
 <body style="margin: 0">
-<!--Do not modify this file yet, I still need to do something with it before you can butcher it.
-DO NOT EDIT YET, I NEED TO BACK IT UP FIRST, DO NOT EDIT, I NEED TO BACK IT UP.-->
 
 <div id="layer1" class="auto-style1" style="position: absolute; width: 640px; height: 480px; z-index: 1; left: 3px; top: 3px">
 	Open Shop Channel<span class="auto-style2"> <span class="auto-style3">&nbsp;Featured 
@@ -106,8 +102,6 @@ DO NOT EDIT YET, I NEED TO BACK IT UP FIRST, DO NOT EDIT, I NEED TO BACK IT UP.-
 		<p class="auto-style13"><strong>Games</strong></p>
 	</div>
 </div>
-<!--Do not modify this file yet, I still need to do something with it before you can butcher it.
-DO NOT EDIT YET, I NEED TO BACK IT UP FIRST, DO NOT EDIT, I NEED TO BACK IT UP.-->
 
 </body>
 
