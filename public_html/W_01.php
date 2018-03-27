@@ -95,31 +95,29 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body style="margin: 0" onload="FP_preloadImgs(/*url*/'img/button/exploreA.gif',/*url*/'img/button/exploreB.gif')">
+<body onload="FP_preloadImgs(/*url*/'img/button/exploreA.gif',/*url*/'img/button/exploreB.gif')" style="margin: 0">
 
 <div class="auto-style13">
 	<span class="auto-style12"><strong><br />
 	Open Shop Channel</strong></span><span class="auto-style2">
-	<span class="auto-style3">&nbsp;Featured 
-	Homebrew </span><br />
+	<span class="auto-style3">&nbsp;Featured Homebrew </span><br />
+	<table align="center" style="width: 97%; height: 228px">
+		<tr>
+			<td class="auto-style7">1</td>
+			<td class="auto-style8">2</td>
+			<td class="auto-style9" style="width: 165px">3</td>
+		</tr>
+		<tr>
+			<td class="auto-style4">4</td>
+			<td class="auto-style5">5</td>
+			<td class="auto-style6" style="width: 165px">6</td>
+		</tr>
+	</table>
+	<hr /></span>
+	<div class="auto-style10">
+		<h1 class="auto-style13"><a href="W_02.php">
+		<img id="img1" alt="Explore Now" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreC.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" src="img/button/exploreC.gif" style="border: 0" width="150" /></a></h1>
 	</div>
-<table align="center" style="width: 97%; height: 228px">
-	<tr>
-		<td class="auto-style7">1</td>
-		<td class="auto-style8">2</td>
-		<td class="auto-style9" style="width: 165px">3</td>
-	</tr>
-	<tr>
-		<td class="auto-style4">4</td>
-		<td class="auto-style5">5</td>
-		<td class="auto-style6" style="width: 165px">6</td>
-	</tr>
-</table>
-<hr /></span>
-<div class="auto-style10">
-	<h1 class="auto-style13">
-	<a href="W_02.php">
-	<img id="img1" alt="Explore Now" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreC.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" src="img/button/exploreC.gif" style="border: 0" width="150" /></a></h1>
 </div>
 
 </body>
