@@ -63,23 +63,14 @@
 .auto-style11 {
 	color: #C0C0C0;
 	text-align: center;
-}
-.auto-style12 {
-	color: #800000;
-	text-align: center;
-	font-size: x-large;
-}
-.auto-style13 {
-	color: #008000;
-	text-align: center;
-	font-size: x-large;
+	background-color: #FFFFFF;
 }
 </style>
 </head>
 
 <body style="margin: 0">
 
-<div id="layer1" class="auto-style1" style="position: absolute; width: 640px; height: 480px; z-index: 1; left: 3px; top: 3px">
+<div id="layer1" class="auto-style1" style="position: absolute; width: 533px; height: 382px; z-index: 1; left: 3px; top: 3px">
 	Open Shop Channel<span class="auto-style2"> <span class="auto-style3">&nbsp;Featured 
 	Homebrew </span><br />
 	<table align="center" style="width: 97%; height: 228px">
@@ -97,9 +88,7 @@
 	<hr />
 	</span>
 	<div class="auto-style10">
-		<p class="auto-style11">Explore Open Shop</p>
-		<p class="auto-style12"><strong>Tools</strong></p>
-		<p class="auto-style13"><strong>Games</strong></p>
+		<p class="auto-style11">Explore Open Shop Now</p>
 	</div>
 </div>
 
