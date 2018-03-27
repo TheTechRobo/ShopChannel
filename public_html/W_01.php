@@ -101,7 +101,12 @@ function FP_getObjectByID(id,o) {//v1.0
 	<span class="auto-style12"><strong>Open Shop Channel</strong></span><span class="auto-style2">
 	<span class="auto-style3">&nbsp;Featured 
 	Homebrew </span><br />
-	...........................................................................................................</div>
+
+
+<div class="dot" id="line01">･･･････････････････････････････････････････････････････････････････････････</div>
+<div class="dot" id="line02">･･･････････････････････････････････････････････････････････････････････････</div>
+
+</div>
 <table align="center" style="width: 97%; height: 228px">
 	<tr>
 		<td class="auto-style7">1</td>
