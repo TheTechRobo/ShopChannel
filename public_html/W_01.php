@@ -11,7 +11,7 @@
 }
 .auto-style3 {
 	color: #FFFFFF;
-	background-color: #009FFF;
+	background-color: #34BEED;
 }
 .auto-style7 {
 	border-right-style: solid;
