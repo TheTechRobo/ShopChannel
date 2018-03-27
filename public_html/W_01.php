@@ -11,13 +11,14 @@
 }
 .auto-style3 {
 	color: #FFFFFF;
-	background-color: #808080;
+	background-color: #009FFF;
 }
 .auto-style7 {
 	border-right-style: solid;
 	border-right-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
+	text-align: center;
 }
 .auto-style8 {
 	border-left-style: solid;
@@ -26,18 +27,21 @@
 	border-right-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
+	text-align: center;
 }
 .auto-style9 {
 	border-left-style: solid;
 	border-left-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
+	text-align: center;
 }
 .auto-style4 {
 	border-right-style: solid;
 	border-right-width: 1px;
 	border-top-style: solid;
 	border-top-width: 1px;
+	text-align: center;
 }
 .auto-style5 {
 	border-left-style: solid;
@@ -46,26 +50,27 @@
 	border-right-width: 1px;
 	border-top-style: solid;
 	border-top-width: 1px;
+	text-align: center;
 }
 .auto-style6 {
 	border-left-style: solid;
 	border-left-width: 1px;
 	border-top-style: solid;
 	border-top-width: 1px;
+	text-align: center;
 }
 .auto-style10 {
 	text-align: left;
-}
-.auto-style11 {
-	color: #C0C0C0;
-	text-align: center;
-	background-color: #FFFFFF;
 }
 .auto-style12 {
 	font-size: xx-large;
 }
 .auto-style13 {
 	text-align: center;
+}
+.auto-style14 {
+	color: #FFFFFF;
+	background-color: #0000FF;
 }
 </style>
 </head>
@@ -75,22 +80,24 @@
 <div class="auto-style13">
 	<span class="auto-style12"><strong>Open Shop Channel</strong></span><span class="auto-style2">
 	<span class="auto-style3">&nbsp;Featured 
-	Homebrew </span><br /></div>
+	Homebrew </span><br />
+	...........................................................................................................</div>
 <table align="center" style="width: 97%; height: 228px">
 	<tr>
 		<td class="auto-style7">1</td>
 		<td class="auto-style8">2</td>
-		<td class="auto-style9">3</td>
+		<td class="auto-style9" style="width: 165px">3</td>
 	</tr>
 	<tr>
 		<td class="auto-style4">4</td>
 		<td class="auto-style5">5</td>
-		<td class="auto-style6">6</td>
+		<td class="auto-style6" style="width: 165px">6</td>
 	</tr>
 </table>
 <hr /></span>
 <div class="auto-style10">
-	<p class="auto-style11">Explore Open Shop Now</p>
+	<h1 class="auto-style13"><strong><span class="auto-style14">&nbsp;Explore 
+	Now </span></strong></h1>
 </div>
 
 </body>
