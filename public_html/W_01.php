@@ -102,10 +102,7 @@ function FP_getObjectByID(id,o) {//v1.0
 	Open Shop Channel</strong></span><span class="auto-style2">
 	<span class="auto-style3">&nbsp;Featured 
 	Homebrew </span><br />
-
-
-<div class="dot" id="line01">･･･････････････････････････････････････････････････････････････････････････</div>
-</div>
+	</div>
 <table align="center" style="width: 97%; height: 228px">
 	<tr>
 		<td class="auto-style7">1</td>
@@ -121,11 +118,8 @@ function FP_getObjectByID(id,o) {//v1.0
 <hr /></span>
 <div class="auto-style10">
 	<h1 class="auto-style13">
-	<img id="img1" alt="Explore Now" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreC.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" src="img/button/exploreC.gif" style="border: 0" width="150" /><!-- MSComment="ibutton" fp-style="fp-btn: Soft Rectangle 6; fp-font: Yu Gothic UI Light; fp-font-size: 14; fp-transparent: 1" fp-title="Explore Now" --></h1>
+	<img id="img1" alt="Explore Now" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreC.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" src="img/button/exploreC.gif" style="border: 0" width="150" /></h1>
 </div>
-
-<p><span class="auto-style2">
-	･･･････････････････････････････････････････････････････････････････････････</span></p>
 
 </body>
 
