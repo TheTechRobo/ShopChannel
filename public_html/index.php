@@ -12,5 +12,6 @@ We'll be changing more soon.
     snd.playBGM();
 </script>
 <p><a href="W_01.php">W_01</a></p>
+<p><a href="SpotTest1.php">Spot Test</a></p>
 </BODY>
 </HTML>
