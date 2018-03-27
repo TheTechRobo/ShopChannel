@@ -6,36 +6,12 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>Open Shop Channel</title>
 <style type="text/css">
-.auto-style1 {
-	font-size: xx-large;
-	text-align: center;
-}
 .auto-style2 {
 	font-size: large;
 }
 .auto-style3 {
 	color: #FFFFFF;
 	background-color: #808080;
-}
-.auto-style4 {
-	border-right-style: solid;
-	border-right-width: 1px;
-	border-top-style: solid;
-	border-top-width: 1px;
-}
-.auto-style5 {
-	border-left-style: solid;
-	border-left-width: 1px;
-	border-right-style: solid;
-	border-right-width: 1px;
-	border-top-style: solid;
-	border-top-width: 1px;
-}
-.auto-style6 {
-	border-left-style: solid;
-	border-left-width: 1px;
-	border-top-style: solid;
-	border-top-width: 1px;
 }
 .auto-style7 {
 	border-right-style: solid;
@@ -57,6 +33,26 @@
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 }
+.auto-style4 {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.auto-style5 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.auto-style6 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
 .auto-style10 {
 	text-align: left;
 }
@@ -65,31 +61,36 @@
 	text-align: center;
 	background-color: #FFFFFF;
 }
+.auto-style12 {
+	font-size: xx-large;
+}
+.auto-style13 {
+	text-align: center;
+}
 </style>
 </head>
 
 <body style="margin: 0">
 
-<div id="layer1" class="auto-style1" style="position: absolute; width: 533px; height: 382px; z-index: 1; left: 3px; top: 3px">
-	Open Shop Channel<span class="auto-style2"> <span class="auto-style3">&nbsp;Featured 
-	Homebrew </span><br />
-	<table align="center" style="width: 97%; height: 228px">
-		<tr>
-			<td class="auto-style7">1</td>
-			<td class="auto-style8">2</td>
-			<td class="auto-style9">3</td>
-		</tr>
-		<tr>
-			<td class="auto-style4">4</td>
-			<td class="auto-style5">5</td>
-			<td class="auto-style6">6</td>
-		</tr>
-	</table>
-	<hr />
-	</span>
-	<div class="auto-style10">
-		<p class="auto-style11">Explore Open Shop Now</p>
-	</div>
+<div class="auto-style13">
+	<span class="auto-style12"><strong>Open Shop Channel</strong></span><span class="auto-style2">
+	<span class="auto-style3">&nbsp;Featured 
+	Homebrew </span><br /></div>
+<table align="center" style="width: 97%; height: 228px">
+	<tr>
+		<td class="auto-style7">1</td>
+		<td class="auto-style8">2</td>
+		<td class="auto-style9">3</td>
+	</tr>
+	<tr>
+		<td class="auto-style4">4</td>
+		<td class="auto-style5">5</td>
+		<td class="auto-style6">6</td>
+	</tr>
+</table>
+<hr /></span>
+<div class="auto-style10">
+	<p class="auto-style11">Explore Open Shop Now</p>
 </div>
 
 </body>
