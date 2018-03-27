@@ -119,7 +119,7 @@ function FP_getObjectByID(id,o) {//v1.0
 <div class="auto-style10">
 	<h1 class="auto-style13">
 	<a href="W_02.php">
-	<img id="img1" alt="Explore Now" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreC.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" src="img/button/exploreC.gif" style="border: 0" width="150" /></a></h1>
+	<img id="img1" alt="Explore Now" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreC.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/exploreA.gif'); snd.playSE( 2 );" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/exploreA.gif')" src="img/button/exploreC.gif" style="border: 0" width="150" /></a></h1>
 </div>
 
 </body>
