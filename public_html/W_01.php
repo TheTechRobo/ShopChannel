@@ -67,7 +67,6 @@
 }
 .auto-style13 {
 	text-align: center;
-	background-color: #34BEED;
 }
 .auto-style14 {
 	color: #FFFFFF;
