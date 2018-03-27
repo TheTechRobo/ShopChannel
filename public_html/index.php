@@ -11,5 +11,6 @@ We'll be changing more soon.
     var snd = new wiiSound();
     snd.playBGM();
 </script>
+<p><a href="W_01.php">W_01</a></p>
 </BODY>
 </HTML>
