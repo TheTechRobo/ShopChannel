@@ -50,14 +50,13 @@ function FP_getObjectByID(id,o) {//v1.0
 
 
 <body onload="FP_preloadImgs(/*url*/'img/button/returnE.gif',/*url*/'img/button/returnF.gif')">
-<body onload="FP_preloadImgs(/*url*/'img/section/clubspotA.gif',/*url*/'img/button/clubspotB.gif')" style="margin: 0">
 
 <p class="centeralignment"><span class="pt-36"><strong>Open Shop Channel</strong></span><span class="pt-18">
 	<span class="highlighter">&nbsp;Explore </span></span></p>
 <p class="centeralignment"><a href="homebrew/H_01.php">
 <img alt="" height="50" src="img/section/homebrew.png" width="100" /></a>&nbsp;
 <img alt="" height="50" src="img/section/patchingstore.png" width="100" />&nbsp;
-<img id="img3" alt="Club Spot" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/section/clubspotB.png')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/section/clubspotA.png')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/section/clubspotC.png')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/section/clubspotC.png')" src="img/button/exploreC.png" style="border: 0" width="150" /></a>
+<img alt="" height="50" src="img/section/clubspotA.png" width="100" />&nbsp;
 <h3><strong>Latest Additions</strong></h3>
 <p class="leftalignment"><strong>Name </strong><em>Added 28/03/2018&nbsp; </em></p>
 <p class="centeralignment"><a href="W_01.php">
