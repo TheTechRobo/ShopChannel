@@ -59,7 +59,7 @@ function FP_getObjectByID(id,o) {//v1.0
 <img alt="" height="50" src="img/section/clubspotA.png" width="100" />&nbsp;
 <h3><strong>Latest Additions</strong></h3>
 <p class="leftalignment"><strong>Name </strong><em>Added 28/03/2018&nbsp; </em></p>
-<p class="centeralignment"><a href="W_02.php">
+<p class="centeralignment"><a href="W_01.php">
 <img id="img1" alt="Return" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/returnF.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/returnD.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/returnE.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/returnE.gif')" src="img/button/returnD.gif" style="border: 0" width="200" /><!-- MSComment="ibutton" fp-style="fp-btn: Soft Rectangle 1; fp-font: Yu Gothic UI Semibold; fp-font-size: 14; fp-font-color-normal: #808080; fp-font-color-hover: #C0C0C0; fp-transparent: 1" fp-title="Return" --></a></p>
 
 </body>
