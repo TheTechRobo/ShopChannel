@@ -2,66 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Explore Open Shop</title>
-<style type="text/css">
-.pt-36 {
-	font-size: xx-large;
-}
-.pt-18 {
-	font-size: large;
-}
-.highlighter {
-	color: #FFFFFF;
-	background-color: #34BEED;
-}
-.centeralignment {
-	text-align: center;
-}
-.leftalignment {
-	text-align: left;
-}
-</style>
-<script type="text/javascript">
-<!--
-function FP_swapImg() {//v1.0
- var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
- n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
- elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
-
-function FP_getObjectByID(id,o) {//v1.0
- var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
- else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
- if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
- for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
- f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
- for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
- return null;
-}
-//-->
-</script>
+	<link href="main.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/button.js"></script>
+	<script type="text/javascript" src="js/wiicore.js"></script>
 </head>
-
-
-<body onload="FP_preloadImgs(/*url*/'img/button/returnE.gif',/*url*/'img/button/returnF.gif')">
-
-<p class="centeralignment"><span class="pt-36"><strong>Open Shop Channel</strong></span><span class="pt-18">
-	<span class="highlighter">&nbsp;Explore </span></span></p>
-<p class="centeralignment"><a href="homebrew/H_01.php">
-<img alt="" height="50" src="img/section/homebrew.png" width="100" /></a>&nbsp;
-<img alt="" height="50" src="img/section/patchingstore.png" width="100" />&nbsp;
-<img alt="" height="50" src="img/section/clubspotA.png" width="100" />&nbsp;
-<h3><strong>Latest Additions</strong></h3>
-<p class="leftalignment"><strong>Name </strong><em>Added 28/03/2018&nbsp; </em></p>
-<p class="centeralignment"><a href="W_01.php">
-<img id="img1" alt="Return" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/returnF.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/returnD.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/button/returnE.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/button/returnE.gif')" src="img/button/returnD.gif" style="border: 0" width="200" /><!-- MSComment="ibutton" fp-style="fp-btn: Soft Rectangle 1; fp-font: Yu Gothic UI Semibold; fp-font-size: 14; fp-font-color-normal: #808080; fp-font-color-hover: #C0C0C0; fp-transparent: 1" fp-title="Return" --></a></p>
-
-</body>
-
+	<body onload="FP_preloadImgs(/*url*/'img/section/clubspotC.png',/*url*/'img/section/clubspotB.png',/*url*/'img/button/returnB.png',/*url*/'img/button/returnC.png')">
+		<p class="heading">Open Shop Channel<span class="highlighted"> Explore </span></p>
+			
+			<!--For the sake of order, stylize Buttons with the heading class in main.css.-->
+			<p class="heading">
+				<!--Sections-->
+				<img alt="Club Spot" id="clubspotbut" dir="ltr" height="100" src="img/section/clubspotA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'img/section/clubspotC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'img/section/clubspotB.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('clubspot/C_01.php')")>
+				</img>
+				<img alt="Patches" id="patchesbut" dir="ltr" height="100" src="img/section/patchesA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'img/section/patchesC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'img/section/patchesB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('patches/P_01.php');")>
+				</img>
+				<img alt="Homebrew" id="homebrewbut" dir="ltr" height="100" src="img/section/homebrewA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'img/section/homebrewC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'img/section/homebrewB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'homebrew/H_01.php');")>
+				</img></p>
+				
+			<p class="heading">
+				<img alt="Return Button" id="returnbut" dir="ltr" height="100" src="img/button/returnA.png" width="200" onmousedown="FP_swapImg(1,1,/*id*/'returnbut',/*url*/'img/button/returnC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'returnbut',/*url*/'img/button/returnB.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'W_01.php')")>
+				</img>
+		</p>
+	</body>
 </html>

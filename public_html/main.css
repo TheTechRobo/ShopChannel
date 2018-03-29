@@ -1,0 +1,45 @@
+﻿/*Default should be used for paragraphs. It's also black, if you wanted to know.*/
+.default {
+	font-size: 16px;
+	font-weight: 200;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+}
+
+/*We love sexy white text in a blue box, and you should too.*/
+.highlighted {
+	font-size: 16px;
+	font-weight: 200;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	background-color: #34BEED;
+}
+
+/*Commonly associated with the words at the top of the page. It's black too.*/
+.heading {
+	font-size: 32px;
+	font-weight: 900;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-align:center
+}
+/*Added so Table CSS doesn't flood the W_xx.php documents.*/
+.table {
+	border-width: 2px;
+	border-color: #34BEED;
+	table-layout: auto;
+	empty-cells: show;
+	border-top-style: 2;
+	border-right-style: 2;
+	border-bottom-style: 2;
+	border-left-style: 2;
+	border-style: solid;
+	border-width: 1px;
+
+}
