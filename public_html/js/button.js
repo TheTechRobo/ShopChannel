@@ -1,4 +1,5 @@
-﻿/*This chunk of JS was generated automatically, instead of keeping it in every single document, we placed it here.*/
+﻿/*This chunk of JS was generated automatically, instead of keeping it in every single document, we placed it here.
+Hopefully DarkPheonix will make a more efficient way to do this rather than this yucky looking block of code.*/
 
 /*Restore Image to it's original state.*/
 function FP_swapImgRestore() {//v1.0
