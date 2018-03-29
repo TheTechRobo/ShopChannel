@@ -13,6 +13,5 @@ We'll be changing more soon.
 </script>
 <p><a href="W_01.php">W_01</a></p>
 <p><a href="SpotTest1.php">Spot Test</a></p>
-<p><a href="flashtest.php">Flash Test</a></p>
 </BODY>
 </HTML>
