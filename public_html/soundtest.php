@@ -12,8 +12,18 @@
 <button onmousedown="sound.playSE(4)">cancel</button>
 <button onmousedown="sound.playSE(5)">keyboard: switch</button>
 <button onmousedown="sound.playSE(6)">keyboard: empty</button>
-<button onmousedown="sound.playSE(7)">success?</button>
-<button onmousedown="sound.playSE(8)">unknown 1</button>
+<button onmousedown="sound.playSE(7)">dl success?</button>
+<button onmousedown="sound.playSE(8)">update success?</button>
+<button onmousedown="sound.playSE(9)">sound 9</button>
+<button onmousedown="sound.playSE(10)">sound 10</button>
+<button onmousedown="sound.playSE(11)">sound 11</button>
+<button onmousedown="sound.playSE(12)">sound 12</button>
+<button onmousedown="sound.playSE(13)">sound 13</button>
+<button onmousedown="sound.playSE(14)">sound 14</button>
+<button onmousedown="sound.playSE(15)">sound 15</button>
+<button onmousedown="sound.playSE(16)">sound 16</button>
+<button onmousedown="sound.playSE(17)">sound 17</button>
+<button onmousedown="sound.playSE(18)">sound 18</button>
 <br>
 <br>
 <a href="index2.php">i wanna go home</a>
