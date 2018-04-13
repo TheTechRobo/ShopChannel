@@ -12,7 +12,7 @@
 <button onmousedown="shop.beginWaiting()">display loading thing</button>
 <button onmousedown="shop.endWaiting()">hide loading thing</button>
 <button onmousedown="shop.jumpDataMng('soundtest.php')">go to data management</button>
-<button onmousedown="shop.jumpToEULAViewer()">view the eula</button>
+<button onmousedown="shop.jumpToEULAViewer('soundtest.php')">view the eula</button>
 <button onmousedown="shop.returnToUpdate()">go to update</button>
 <hr size="1" noshade>
 <p><b>change background:</b></p>
