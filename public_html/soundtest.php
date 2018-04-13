@@ -7,8 +7,6 @@
 <body>
 <button onmousedown="sound.playBGM()">play background music</button>
 <!-- sound 1 for me seems to be nothing, according to the orignal code, sound 1 is "slide" -->
-<button onmousedown="sound.playSE(0)">0</button>
-<button onmousedown="sound.playSE(1)">1</button>
 <button onmousedown="sound.playSE(2)">focus</button>
 <button onmousedown="sound.playSE(3)">select (pressed)</button>
 <button onmousedown="sound.playSE(4)">cancel</button>
@@ -24,9 +22,6 @@
 <button onmousedown="sound.playSE(14)">mario: squash</button>
 <button onmousedown="sound.playSE(15)">loading 1</button>
 <button onmousedown="sound.playSE(16)">loading 2</button>
-<button onmousedown="sound.playSE(19)">does this exist? 19</button>
-<button onmousedown="sound.playSE(20)">does this exist? 20</button>
-<button onmousedown="sound.playSE(21)">does this exist? 21</button>
 <br>
 <br>
 <a href="index2.php">i wanna go home</a>
