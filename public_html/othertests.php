@@ -5,7 +5,7 @@
     <script src="js/wiicore.js"></script>
 </head>
 <body>
-<button onmousedown="document.getElementById('yeet').innerHTML = wiiec.getTitleInfo('0001000148414450')">hi</button>
+<button onmousedown="document.getElementById('yeet').innerHTML = wiiec">hi</button>
 <br>
 <br>
 <p id="yeet">placeholder</p>
