@@ -1,18 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-        "http://www.w3.org/TR/html4/strict.dtd">
-<HTML>
-<HEAD>
-    <TITLE>Sample page</TITLE>
-</HEAD>
-<BODY>
-Hello, welcome to this HTML 4.01 document.
-We'll be changing more soon.
-<script type="text/JavaScript">
-    var snd = new wiiSound();
-    snd.playBGM();
-</script>
-<p><a href="W_01.php">W_01</a></p>
-<p><a href="SpotTest1.php">Spot Test</a></p>
-<p><a href="flashtest.php">Flash Test</a></p>
-</BODY>
-</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Redirecting to HTTPS...</title>
+    <script>
+		setTimeout(function(){
+    		window.location.replace("https://openshop.norment.in.nf/index2.php")
+		}, 2000)
+	</script>
+</head>
+<body>
+<p>Hello, this is a page that reidrects to index2.php</p>
+<p>THAT'S NOT THE ACTUAL INDEX!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+</body>
+</html>

@@ -9,10 +9,9 @@
 		<body>
 			<p>There is no custom CSS in this page, do not attach any CSS or any styles to this page.</p>
 				<h2>Developer Menu</h2>
-					<p><input onmousedown="keyboard.call( 0, 1, false, 'keyboard test');" value="Call a keyboard"></input> (only works under https)</p>
+					<p><input onmousedown="keyboard.call( 0, 1, false, 'keyboard test');" value="Call a keyboard"></input></p>
 					<p><a href="soundtest.php">Test some sounds.</a></p>
 					<p><a href="https://openshop.norment.in.nf/wiiShop-test.php">test some wiiShop thingies</a></p>
-					<p><a href="https://openshop.norment.in.nf/othertests.php">other tests</a></p>
 					<br>
 				<h4>If you add any new scripts to wiicore.js, please link a button here for easy testing.</h4>
 		</body>

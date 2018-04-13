@@ -7,8 +7,7 @@
 </head>
 
 <body>
-cornier
-it's lonely here
+
 </body>
 
 </html>
