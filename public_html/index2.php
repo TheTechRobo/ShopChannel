@@ -12,13 +12,14 @@ We'll be changing more soon.
 <p><a href="/clubspot/C_01.php">Club Spot C_01</a></p>
 <p><a href="debug.php">debugmii</a></p>
 <p><a href="https://openshop.norment.in.nf/">HTTPS</a></p>
+<button onmousedown="sound.playBGM()">play thy bgm</button>
 <script>
 //document.getElementById("helpme").innerHTML = location.href
 //wiiec.setSessionValue("connecting", "true");
 /*wiiec.setSessionValue("connecting", "false")
 shop.endWaiting()
 shop.enableHRP()*/
-sound.playBGM();
+//sound.playBGM();
 
 var ecTimeout = new ECTimeout(parseInt("0"));
 </script>
