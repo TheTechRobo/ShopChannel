@@ -3,6 +3,9 @@
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <script src="js/wiicore.js"></script>
+    <script>
+     var wiiec = new ECommerceInterface();
+    </script>
 </head>
 <body>
 <button onmousedown="document.getElementById('yeet').innerHTML = wiiec">hi</button>
