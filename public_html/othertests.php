@@ -9,7 +9,7 @@
 </head>
 <body>
 <button onmousedown="document.getElementById('yeet').innerHTML = SDOk.isInserted()">sdcard is inserted?</button>
-<button onmousedown="document.getElementById('yeet').innerHTML = wiiEC.getDeviceInfo().titleId">a test</button>
+<button onmousedown="document.getElementById('yeet').innerHTML = wiiEC">a test</button>
 <br>
 <br>
 <p id="yeet">placeholder ok</p>
