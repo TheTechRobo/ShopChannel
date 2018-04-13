@@ -10,6 +10,6 @@
 </HEAD>
 <BODY>
 <p>The page you requested cannot be found.</p>
-<p><a href="https://openshop.norment.in.nf/index.php">Return to index</a></p>
+<p><a href="previous page">Return to index</a></p>
 </BODY>
 </HTML>
