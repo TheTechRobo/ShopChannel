@@ -5,6 +5,7 @@ shop.returnToMenu() - go to wii menu
 shop.beginWaiting() - display loading thing
 shop.endWaiting() - hide loading thing
 shop.returnToUpdate() - go to update
+shop.jumpToEULAViewer() - go to the eula
 shop.setWallpaper(ID) - change background
 shop.enableHRP() - enable home button
 shop.disableHRP() - disable home button
