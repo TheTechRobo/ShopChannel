@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <HTML>
 <HEAD>
-    <TITLE>Sample page</TITLE>
+    <TITLE>index 2</TITLE>
     <script src="js/wiicore.js"></script>
 </HEAD>
 <BODY>
