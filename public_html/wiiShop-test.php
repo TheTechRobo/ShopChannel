@@ -14,6 +14,7 @@
 <button onmousedown="shop.jumpDataMng('soundtest.php')">go to data management</button>
 <button onmousedown="shop.jumpToEULAViewer()">view the eula</button>
 <button onmousedown="shop.returnToUpdate()">go to update</button>
+<button onmousedown="shop.rebootSystem()">reboot wii</button>
 <hr size="1" noshade>
 <p><b>change background:</b></p>
 <button onmousedown="shop.setWallpaper(0)">dots</button>
