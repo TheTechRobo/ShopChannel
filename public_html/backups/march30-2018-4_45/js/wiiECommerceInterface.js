@@ -1,1 +1,0 @@
-var wiiec = new ECommerceInterface(); 
