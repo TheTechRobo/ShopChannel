@@ -4,14 +4,14 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <script src="js/wiicore.js"></script>
     <script>
-     var wiiec = new ECommerceInterface();
+    var SDOk = new wiiSDCard();
     </script>
 </head>
 <body>
-<button onmousedown="document.getElementById('yeet').innerHTML = wiiec">hi</button>
+<button onmousedown="document.getElementById('yeet').innerHTML = SDOk.isInserted()">hi</button>
 <br>
 <br>
-<p id="yeet">placeholder</p>
+<p id="yeet">placeholder ok</p>
 <a href="index2.php">i wanna go home</a>
 </body>
 </html>
