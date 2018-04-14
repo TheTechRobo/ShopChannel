@@ -1,15 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Redirecting to HTTPS...</title>
-    <script>
-		setTimeout(function(){
-    		window.location.replace("index2.php")
-		}, 2000)
-	</script>
-</head>
-<body>
-<p>Hello, this is a page that reidrects to index2.php</p>
-<p>THAT'S NOT THE ACTUAL INDEX!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+    <TITLE>index 2</TITLE>
+    <script src="js/wiicore.js"></script>
+</HEAD>
+<BODY>
+Hello, welcome to this HTML 4.01 document.
+We'll be changing more soon.
+<p><a href="W_01.php">W_01</a></p>
+<p><a href="/clubspot/C_01.php">Club Spot C_01</a></p>
+<p><a href="debug.php">debugmii</a></p>
+<button onmousedown="sound.playBGM()">play thy bgm</button>
+<script>
+//document.getElementById("helpme").innerHTML = location.href
+//wiiec.setSessionValue("connecting", "true");
+/*wiiec.setSessionValue("connecting", "false")
+shop.endWaiting()
+shop.enableHRP()*/
+//sound.playBGM();
+var ecTimeout = new ECTimeout(parseInt("0"));
+</script>
+</BODY>
+</HTML>
