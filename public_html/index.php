@@ -4,7 +4,7 @@
     <title>Redirecting to HTTPS...</title>
     <script>
 		setTimeout(function(){
-    		window.location.replace("https://openshop.norment.in.nf/index2.php")
+    		window.location.replace("index2.php")
 		}, 2000)
 	</script>
 </head>
