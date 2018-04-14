@@ -18,12 +18,13 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 	</script>
     <meta charset="UTF-8">
     <title>Welcome</title>
-    <style type="text/css">
-        body{ font: 14px sans-serif; text-align: center; }
-    </style>
+   	 <style type="text/css">
+        body{ font: 14px; text-align: center; }
+   	 </style>
 </head>
 <body>
     <b>Hello <?php echo htmlspecialchars($_SESSION['username']); ?></b>
     <p><a href="C_01.php">C_01</a></p>
+	<p>Support Homebrew developers, get rewarded!</p>
 </body>
 </html>

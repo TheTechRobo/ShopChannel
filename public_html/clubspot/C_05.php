@@ -8,6 +8,7 @@
 	<script>
         shop.setWallpaper(3)
 	</script>
+<link href="../main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <p style="text-align: center;"><span style="font-size: 20px;">Club Spot Registeration</span></p>

@@ -85,7 +85,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Login</title>
     <script src="/js/wiicore.js"></script>
     <style type="text/css">
-        body{ font: 14px sans-serif; }
+        body{ font: 14px; }
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
