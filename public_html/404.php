@@ -7,9 +7,14 @@
 	<script>
         shop.setWallpaper(2)
 	</script>
+	<script>
+function goBack() {
+    window.history.back();
+}
+</script>
 </HEAD>
 <BODY>
 <p>The page you requested cannot be found.</p>
-<p><a href="previous page">Return to index</a></p>
+<p><a onclick="goBack()">Return to index</a></p>
 </BODY>
 </HTML>
