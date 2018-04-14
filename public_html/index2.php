@@ -11,7 +11,6 @@ We'll be changing more soon.
 <p><a href="W_01.php">W_01</a></p>
 <p><a href="/clubspot/C_01.php">Club Spot C_01</a></p>
 <p><a href="debug.php">debugmii</a></p>
-<p><a href="https://openshop.norment.in.nf/">HTTPS</a></p>
 <button onmousedown="sound.playBGM()">play thy bgm</button>
 <script>
 //document.getElementById("helpme").innerHTML = location.href
@@ -20,7 +19,6 @@ We'll be changing more soon.
 shop.endWaiting()
 shop.enableHRP()*/
 //sound.playBGM();
-
 var ecTimeout = new ECTimeout(parseInt("0"));
 </script>
 </BODY>
