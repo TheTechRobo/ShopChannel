@@ -24,7 +24,7 @@
 <button onmousedown="sound.playSE(16)">loading 2</button>
 <br>
 <br>
-<a href="index2.php">i wanna go home</a>
+<a href="index.php">i wanna go home</a>
 <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br> aaaAAAaaa-->
 </body>
 </html>
