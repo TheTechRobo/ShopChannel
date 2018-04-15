@@ -27,12 +27,12 @@
 <button onmousedown="document.getElementById('testok').innerHTML = shop.menuBtn">"Wii Menu"</button>
 <button onmousedown="document.getElementById('testok').innerHTML = shop.retryBtn">"Try Again"</button>
 <button onmousedown="document.getElementById('testok').innerHTML = shop.connecting">"Connecting. Please wait..."</button>
-<button onmousedown="document.getElementById('testok').innerHTML = shop.wiiUMenuBtn">idk 1</button>
-<button onmousedown="document.getElementById('testok').innerHTML = shop.manualChannelBtn">idk 2</button>
+<button onmousedown="document.getElementById('testok').innerHTML = shop.wiiUMenuBtn">"Wii U Menu"</button>
+<button onmousedown="document.getElementById('testok').innerHTML = shop.manualChannelBtn">"Continue"</button>
 <hr size="1" noshade>
 <p><b>other stuff:</b></p>
-<!-- <button onmousedown="document.getElementById('testok').innerHTML = shop.launchCode()">shop launch code</button>
-<button onmousedown="document.getElementById('testok').innerHTML = shop.getLogUrl">log url</button> -->
+<button onmousedown="document.getElementById('testok').innerHTML = shop.launchCode">shop launch code</button>
+<!-- <button onmousedown="document.getElementById('testok').innerHTML = shop.getLogUrl">log url</button> -->
 <button onmousedown="shop.enableHRP()">enable home button</button> 
 <button onmousedown="shop.disableHRP()">disable home button</button>
 <p>shop.error(errorcode, errortype) displays the local error html</p>
