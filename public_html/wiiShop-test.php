@@ -35,7 +35,7 @@
 <button onmousedown="shop.disableHRP()">disable home button</button>
 <p>shop.error(errorcode, errortype) displays the local error html</p>
 <hr size="1" noshade>
-<p><a href="index2.php">i wanna go home</a> (btw, things that don't work are commented out)</p>
+<p><a href="index.php">i wanna go home</a> (btw, things that don't work are commented out)</p>
 <p id="testok"></p>
 <!-- the code of this is shit, i know, i don't want divs or anything, as long as it works, i'm fine with it-->
 </body>
