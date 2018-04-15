@@ -12,7 +12,7 @@
 <button onmousedown="document.getElementById('yeet').innerHTML = wiiEC">a test</button>
 <br>
 <br>
-<p id="yeet">placeholder ok</p>
+<p id="yeet">placeholder lol</p>
 <a href="index.php">i wanna go home</a>
 </body>
 </html>
