@@ -4,6 +4,6 @@ var newScriptLol;
 for (var ok = 0; ok < toLoad.length; ok++) {
     newScriptLol = document.createElement("script");
 	newScriptLol.type = "text/javascript";
-	newScriptLol.src = "https://openshop.norment.in.nf/js/" + toLoad[ok] + ".js";
+	newScriptLol.src = "https://" + location.host + "/js/" + toLoad[ok] + ".js";
 	document.getElementsByTagName("head")[0].appendChild(newScriptLol);
 }
