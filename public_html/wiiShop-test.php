@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<script src="js/wiicore.js"></script>
-	<script>
+	<script type="application/javascript" src="js/wiicore.js"></script>
+	<script type="application/javascript">
 		//var shop = new wiiShop(); // having to do this, aAAAA
 	</script>
 </head>
