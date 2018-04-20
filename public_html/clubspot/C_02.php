@@ -90,6 +90,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
+<div align="center">
     <div class="wrapper">
         <h2>Login</h2>
         <p>Club Spot member login.</p>
@@ -110,5 +111,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Don't have an account? <a href="C_05.php">Sign up now</a>.</p>
         </form>
     </div>    
+</div>
 </body>
 </html>
