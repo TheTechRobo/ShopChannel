@@ -96,16 +96,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                 <label>Username</label>
-                <input style="height:200px;font-size:14pt;" type="text" name="username"class="form-control" onmousedown="keyboard.call( 0, 1, false, 'Username')">
+                <input style="height:20px;font-size:14pt;" type="text" name="username"class="form-control" onmousedown="keyboard.call( 0, 1, false, 'Username')">
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>    
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                 <label>Password</label>
-                <input style="height:200px;font-size:14pt;" type="password" name="password" class="form-control" onmousedown="keyboard.call( 0, 1, true, 'Password')">
+                <input style="height:20px;font-size:14pt;" type="password" name="password" class="form-control" onmousedown="keyboard.call( 0, 1, true, 'Password')">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <input style="height:200px;font-size:14pt;" type="submit" class="btn btn-primary" value="Login">
+                <input style="height:20px;font-size:14pt;" type="submit" class="btn btn-primary" value="Login">
             </div>
             <p>Don't have an account? <a href="C_05.php">Sign up now</a>.</p>
         </form>
