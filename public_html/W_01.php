@@ -6,7 +6,8 @@
 	<script type="text/javascript" src="js/button.js"></script>
 	<script type="text/javascript" src="js/wiicore.js"></script>
 	<script type="text/JavaScript">
-	sound.playBGM();
+        shop.setWallpaper(3)
+	    sound.playBGM();
 	</script>
 </head>
 	<body>
