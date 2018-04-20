@@ -100,6 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input style="height:25px;font-size:14pt;" type="text" name="username"class="form-control" onmousedown="keyboard.call( 0, 1, false, 'Username')">
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>    
+		<p></p>
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                 <label>Password</label>
                 <input style="height:25px;font-size:14pt;" type="password" name="password" class="form-control" onmousedown="keyboard.call( 0, 1, true, 'Password')">
