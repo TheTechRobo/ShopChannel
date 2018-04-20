@@ -3,7 +3,7 @@
 <HTML>
 <HEAD>
     <TITLE>index 2</TITLE>
-    <script src="js/wiicore.js"></script>
+    <script type="application/javascript" src="js/wiicore.js"></script>
 </HEAD>
 <BODY>
 Hello, welcome to this HTML 4.01 document.
