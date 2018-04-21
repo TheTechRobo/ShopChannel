@@ -99,7 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 <div align="center">
     <div class="wrapper">
-        <h2>Login</h2>
+        <h2 style="color:#009ac7;">Login</h2>
         <p>Club Spot member login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
