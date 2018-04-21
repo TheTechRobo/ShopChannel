@@ -91,6 +91,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	input[type=text] {
    	border: 2px solid #009ac7;
 	}
+	input[type=password] {
+   	border: 2px solid #009ac7;
+	}
     </style>
 </head>
 <body>
