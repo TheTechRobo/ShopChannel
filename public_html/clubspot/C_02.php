@@ -89,7 +89,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
 	
 	input[type=text] {
-    	box-sizing: border-box;
    	border: 2px solid #009ac7;
 	}
     </style>
