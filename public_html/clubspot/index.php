@@ -6,7 +6,7 @@ session_start();
  
 // If session variable is not set it will redirect to login page
 if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  header("location: C_02.php");
+  header("location: login.php");
   exit;
 }
 ?>
@@ -24,6 +24,6 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 <body>
 <p style="text-align: center;"><span style="font-size: 20px;">Club Spot Debug</span></p>
 <p style="text-align: center;">Current Session: <?php echo htmlspecialchars($_SESSION['username']); ?></p>
-<p><a href="C_04.php">Logout</a></p>
+<p><a href="logout.php">Logout</a></p>
 </body>
 </html>

@@ -50,7 +50,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             save the username to the session */
                             session_start();
                             $_SESSION['username'] = $username;      
-                            header("location: C_03.php");
+                            header("location: index.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = 'The password you entered was not valid.';
@@ -118,7 +118,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input style="height:36px;font-size:20pt;" type="submit" class="btn btn-primary" value="Login">
             </div>
 		<p></p>
-            <p>Don't have an account? <a href="C_05.php">Sign up now</a>.</p>
+            <p>Don't have an account? <a href="noregister.php">Sign up now</a> or <a href="../W_01.php">Return Home</a>.</p>
         </form>
     </div>    
 </div>

@@ -9,7 +9,7 @@
 Hello, welcome to this HTML 4.01 document.
 We'll be changing more soon.
 <p><a href="W_01.php">W_01</a></p>
-<p><a href="/clubspot/C_01.php">Club Spot C_01</a></p>
+<p><a href="/clubspot/index.php">Club Spot index</a></p>
 <p><a href="debug.php">debugmii</a></p>
 <button onmousedown="sound.playBGM()">play thy bgm</button>
 <script>
