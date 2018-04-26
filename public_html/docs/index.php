@@ -4,13 +4,13 @@
 <head>
 </head>
 
-<body>
-<p>(This document can be stylised later. We need to focus on other parts first.)</p>
-<p>Button Design: Iyenal</p>
-<p>Frontend: CornierKhan1</p>
-<p>Backend: dhtdht020 and DarkPheonix</p>
-<div></div>
-<p>Thank you for using The Open Shop!</p>
-</body>
+	<body>
+		<p>(This document can be stylised later. We need to focus on other parts first.)</p>
+		<p>Button Design: Iyenal</p>
+		<p>Frontend: CornierKhan1</p>
+		<p>Backend: Dhtdht020 and DarkPheonix</p>
+			<div></div>
+		<p>Thank you for using The Open Shop!</p>
+	</body>
 
 </html>
