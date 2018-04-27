@@ -1,4 +1,4 @@
-# ShopChannel ![https://discord.gg/by6mR5N](https://img.shields.io/discord/426478571389976577.svg?style=for-the-badge)
+# ShopChannel ![https://discord.gg/by6mR5N](https://img.shields.io/discord/426478571389976577.svg)
 "Open your shop." We said. "Stop having it be closed."
 
 ## What?
