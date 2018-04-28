@@ -21,3 +21,4 @@ The team so far consists of darky, dhtdht020, KcrPL, Larsenv and CornierKhan1.
 The release date of The Open Shop Channel is unfortunately unknown.
 
 ### Keep in contact...
+https://discord.gg/by6mR5N
