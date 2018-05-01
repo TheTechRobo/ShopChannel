@@ -15,6 +15,6 @@ function goBack() {
 </HEAD>
 <BODY>
 <p>The page you requested cannot be found.</p>
-<p><a onclick="goBack()">Return to index</a></p>
+<p><button onclick="goBack()">Return</button></p>
 </BODY>
 </HTML>
