@@ -3,7 +3,13 @@
 <HTML>
 	<HEAD>
 	    <TITLE>index 2</TITLE>
-	    <script type="application/javascript" src="js/wiicore.js"></script>
+	    <script type="application/javascript" src="js/wiicore.js">
+		shop.title
+		shop.menuBtn
+		shop.retryBtn
+		shop.connecting
+		shop.wiiUMenuBtn
+		shop.manualChannelBtn</script>
 	</HEAD>
 		<BODY>
 		Hello, welcome to this HTML 4.01 document.
