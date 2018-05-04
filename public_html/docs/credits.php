@@ -17,7 +17,7 @@
 		<b>Donations</b>
 		<p>Sesuiro - $2.00 (USD)</p>
 			<div></div>
-		<p>Thank you for using The Open Shop!</p>
+		<p>Thank you for using The Open Shop Channel!</p>
 	</body>
 
 </html>
