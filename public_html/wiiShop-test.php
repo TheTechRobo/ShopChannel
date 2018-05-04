@@ -35,7 +35,6 @@
 <!-- <button onmousedown="document.getElementById('testok').innerHTML = shop.getLogUrl">log url</button> -->
 <button onmousedown="shop.enableHRP()">enable home button</button> 
 <button onmousedown="shop.disableHRP()">disable home button</button>
-<button onmousedown="shop.error(209000, error?)">error?</button>
 <p>shop.error(errorcode, errortype) displays the local error html</p>
 <hr size="1" noshade>
 <p><a href="index.php">i wanna go home</a> (btw, things that don't work are commented out)</p>
