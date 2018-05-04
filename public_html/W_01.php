@@ -8,7 +8,9 @@
 	<script type="text/JavaScript">
         shop.setWallpaper(3)
 	    sound.playBGM();
+	     FP_preloadImgs(/*url*/'asset/button/');
 	</script>
+	
 </head>
 	<body>
 		<p class="heading">Open Shop Channel<span class="highlighted"> Featured </span></p>
