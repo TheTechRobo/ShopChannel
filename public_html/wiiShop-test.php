@@ -32,7 +32,7 @@
 <hr size="1" noshade>
 <p><b>other stuff:</b></p>
 <button onmousedown="document.getElementById('testok').innerHTML = shop.launchCode">shop launch code</button>
-<button onmousedown="document.getElementById('testok').innerHTML = shop.getLogUrl">log url</button>
+<!-- <button onmousedown="document.getElementById('testok').innerHTML = shop.getLogUrl">log url</button> -->
 <button onmousedown="shop.enableHRP()">enable home button</button> 
 <button onmousedown="shop.disableHRP()">disable home button</button>
 <p>shop.error(errorcode, errortype) displays the local error html</p>
