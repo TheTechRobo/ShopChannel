@@ -9,6 +9,12 @@
 		<p>Button Design: Iyenal</p>
 		<p>Frontend: CornierKhan1</p>
 		<p>Backend: dhtdht020 and DarkPheonix</p>
+		<p>Patcher: KcrPL</p>
+		<p>Dynamic Banners: Larsenv</p>
+		<p>Development Help: Snoot</p>
+			<div></div>
+		<b>Donators</b>
+		<p>Sesuiro - $2.00 (USD)</p>
 			<div></div>
 		<p>Thank you for using The Open Shop!</p>
 	</body>
