@@ -7,12 +7,12 @@
 	<body>
 		<!-- <p>(This document can be stylised later. We need to focus on other parts first.)</p> -->
 		<b>Development</b>
-		<p>Button Design: Iyenal</p>
-		<p>Frontend: CornierKhan1</p>
-		<p>Backend: dhtdht020 and DarkPheonix</p>
-		<p>Patcher: KcrPL</p>
-		<p>Dynamic Banners: Larsenv</p>
-		<p>Development Help: Snoot</p>
+		<p><b>Frontend:</b> CornierKhan1</p>
+		<p><b>Patcher:</b> KcrPL</p>
+		<p><b>Backend:</b> dhtdht020 and DarkPheonix</p>
+		<p><b>Button Design:</b> Iyenal</p>
+		<p><b>Dynamic Banners:</b> Larsenv</p>
+		<p><b>Development Help:</b> Snoot</p>
 			<div></div>
 		<b>Donations</b>
 		<p>Sesuiro - $2.00 (USD)</p>
