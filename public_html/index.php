@@ -3,15 +3,11 @@
 <HTML>
 	<HEAD>
 	    <TITLE>index 2</TITLE>
-		<script type="text/javascript" src="/js/wiicore.js"></script>
 		<script>
-    		shop.title;
-		shop.menuBtn;
-		shop.retryBtn;
-		shop.connecting;
-		shop.wiiUMenuBtn;
-		shop.manualChannelBtn;
+		var shop = new wiiShop();
+		console.log(shop.connecting)
 		</script>
+		<script type="text/javascript" src="/js/wiicore.js"></script>
 	</HEAD>
 		<BODY>
 		Hello, welcome to this HTML 4.01 document.
@@ -28,7 +24,7 @@
 				shop.endWaiting()
 				shop.enableHRP()*/
 				//sound.playBGM();
-				var ecTimeout = new ECTimeout(parseInt("0"));
+				//var ecTimeout = new ECTimeout(parseInt("0"));
 			</script>
 		</BODY>
 </HTML>
