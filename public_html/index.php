@@ -12,7 +12,7 @@
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
 			<p><a href="debug.php">debugmii</a></p>
 			<button onmousedown="sound.playBGM()">play thy bgm</button>
-			<p id="test"></p>
+			<p id="test" style="display: none;"></p>
 			<script>
 			document.getElementById('test').innerHTML = new wiiShop().connecting
 			</script>
