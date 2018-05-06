@@ -13,6 +13,7 @@
 					<p><a href="soundtest.php">Test some sounds.</a></p>
 					<p><a href="wiiShop-test.php">test some wiiShop thingies</a></p>
 					<p><a href="othertests.php">other tests</a></p>
+					<p><a href="eval.html">eval</a></p>
 					<br>
 				<h4>If you add any new scripts to wiicore.js, please link a button here for easy testing.</h4>
 		</body>
