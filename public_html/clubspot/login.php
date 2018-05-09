@@ -118,7 +118,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input style="height:36px;font-size:20pt;" type="submit" class="btn btn-primary" value="Login">
             </div>
 		<p></p>
-            <p>Don't have an account? <a href="noregister.php">Sign up now</a> or <a href="../W_01.php">Return Home</a>.</p>
+            <p>Don't have an account? <a href="noregister.php">Sign up now</a> or <a href="../explore.php">Return Home</a>.</p>
         </form>
     </div>    
 </div>
