@@ -7,12 +7,12 @@
 		<BODY>
 		Hello, welcome to this HTML 4.01 document.
 		We'll be changing more soon.
-			<p>User Pages: <a href="W_01.php">W_01</a> (Front page) -
-			<a href="W_2a.php">W_02a</a> (New Explore) -
-			<a href="download/D_01.php">D_01</a> (Product Page) </p>
+			<p>User Pages: <a href="featured.php">Featured (Front Page)</a></p> (Front page) -
+			<p><a href="explore.php">Explore (New Explore)</a></p>
+			<p><a href="download/prodinfo.php">(Product Page)</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
 			<p><a href="debug.php">debugmii</a></p>
-			<button onmousedown="sound.playBGM()">play thy bgm</button>
+			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
 			<p id="test" style="display: none;"></p>
 			<script>
 			document.getElementById('test').innerHTML = new wiiShop().connecting
