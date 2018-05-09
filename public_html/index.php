@@ -8,7 +8,8 @@
 		Hello, welcome to this HTML 4.01 document.
 		We'll be changing more soon.
 			<p><a href="featured.php">Featured</a></p>
-			<p><a href="explore.php">New Explore</a></p>
+			<p><a href="newexplore.php">New Explore</a></p>
+			<p><a href="explore.php">Explore</a></p>
 			<p><a href="download/prodinfo.php">Product Page</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
 			<p><a href="debug.php">debugmii</a></p>
