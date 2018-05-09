@@ -6,7 +6,7 @@
      *
      */
 
-    // array of commands
+    // array of git commands
     $commands = array(
         'echo $PWD',
         'whoami',
@@ -27,7 +27,9 @@
     }
 ?>
 
+//HTML DOC
 <!DOCTYPE HTML>
+<!-- Set language to english -->
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
@@ -37,6 +39,7 @@
 <div style="width:700px">
     <div style="float:left;width:350px;">
     <p style="color:white;">Git Deployment Script</p>
+    <!-- Output deplyment info, for technical usage. Regularly commented out -->
     <?php // echo $output; ?>
     </div>
 </div>
