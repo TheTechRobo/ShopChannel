@@ -7,9 +7,9 @@
 		<BODY>
 		Hello, welcome to this HTML 4.01 document.
 		We'll be changing more soon.
-			<p>User Pages: <a href="featured.php">Featured (Front Page)</a></p> (Front page) -
-			<p><a href="explore.php">Explore (New Explore)</a></p>
-			<p><a href="download/prodinfo.php">(Product Page)</a></p>
+			<p><a href="featured.php">Featured</a></p>
+			<p><a href="explore.php">New Explore</a></p>
+			<p><a href="download/prodinfo.php">Product Page</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
 			<p><a href="debug.php">debugmii</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
