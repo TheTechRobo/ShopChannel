@@ -1,4 +1,4 @@
-/*Default should be used for paragraphs. It's also black, if you wanted to know.*/
+﻿/*Default should be used for paragraphs. It's also black, if you wanted to know.*/
 .default {
 	font-size: 16px;
 	font-weight: 200;
@@ -20,6 +20,7 @@
 }
 
 /*Commonly associated with the words at the top of the page. It's black too.*/
+/*Added so Table CSS doesn't flood the W_xx.php documents.*/
 .heading {
 	font-size: 32px;
 	font-weight: 900;
@@ -29,7 +30,6 @@
 	color: #000000;
 	text-align:center
 }
-/*Added so Table CSS doesn't flood the W_xx.php documents.*/
 .table {
 	border-width: 2px;
 	border-color: #34BEED;

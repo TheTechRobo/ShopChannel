@@ -7,8 +7,9 @@
 		<BODY>
 		Hello, welcome to this HTML 4.01 document.
 		We'll be changing more soon.
-			<p><a href="W_01.php">W_01</a></p>
-		<p><a href="W_2a.php">W_02a</a> (The new Explore page.)</p>
+			<p>User Pages: <a href="W_01.php">W_01</a> (Front page) -
+			<a href="W_2a.php">W_02a</a> (New Explore) -
+			<a href="download/D_01.php">D_01</a> (Product Page) </p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
 			<p><a href="debug.php">debugmii</a></p>
 			<button onmousedown="sound.playBGM()">play thy bgm</button>
