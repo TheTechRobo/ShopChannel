@@ -8,7 +8,9 @@
 </head>
 <!--Please don't attach CSS or images to this document, we would rather have this page load rather quickly.-->
 <body>
-<p><button onmousedown="addDownload(1)">play thy bgm</button></p>
+    <p>TASK THINGIES</p>
+    <p><button onmousedown="addDownload(1)">ADD DOWNLOAD (1)</button></p>
+    <p href="index.php">GO BACK</p>
 </body>
 
 </html>
