@@ -1,5 +1,5 @@
 //This file is for quick access, simply use <script src="js/wiicore.js"></script> to load it into any page on public_html.
-var toLoad = ["wiiShop", "wiiKeyboard", "wiiSound", "wiiECommerceInterface"]
+var toLoad = ["wiiShop", "wiiKeyboard", "wiiSound", "wiiECommerceInterface", "addDownloadTask", "deleteDownloadTask", "hasDeletedDLTask"]
 var newScriptLol;
 for (var ok = 0; ok < toLoad.length; ok++) {
     newScriptLol = document.createElement("script");
