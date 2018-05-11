@@ -2,22 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+<title> creds </title>
+<link rel="stylesheet" type="text/css" href="../main.css">
+<script type="text/javascript" src="creds.js"></script>
 </head>
 
-	<body>
+	<body onload="credits();" style="">
 		<!-- <p>(This document can be stylised later. We need to focus on other parts first.)</p> -->
-		<b>Development</b>
-		<p><b>Frontend:</b> CornierKhan1</p>
-		<p><b>Patcher:</b> KcrPL</p>
-		<p><b>Backend:</b> dhtdht020 and DarkPheonix</p>
-		<p><b>Button Design:</b> Iyenal</p>
-		<p><b>Dynamic Banners:</b> Larsenv</p>
-		<p><b>Development Help:</b> Snoot</p>
-			<div></div>
-		<b>Donations</b>
-		<p>Sesuiro - $2.00 (USD)</p>
-			<div></div>
-		<p>Thank you for using The Open Shop Channel!</p>
+		<!-- Your boy Shinji Ikari got your back -->
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p class="heading" id="firstchild" style="font-size:40px; margin:10px; padding:2px;">shouldn't appear</p>
+		<p class="heading" style="font-size:20px; margin:0; padding:0;" id="secondchild">shouldn't appear also</p>
+		<p id="debug" style="font-size:0; color: white;"></p>
 	</body>
 
 </html>
