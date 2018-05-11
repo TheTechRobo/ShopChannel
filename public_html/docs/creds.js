@@ -6,7 +6,7 @@ function credits() {
 	var initBottom = "Credits";
 	var finalInfo = "The End."
 	var finalBottom = "Thanks for using Open Shop Channel!"
-	var creditInfo = ["Frontend", "Patcher", "Backend", "Button Design", "Dynamic Banners", "Development Help", "Credits Creation", "Donations"]
+	var creditInfo = ["Frontend", "Patcher", "Backend", "Button Design", "Dynamic Banners", "Development Help", "Credits Page", "Donations"]
 	var creditBottom = ["CornierKhan1", "KrcPL", "dhtdht020 and DarkPheonix", "Iyenal","Larsenv","Snoot", "Shinji On A Cup","Sesurio - $2.00 (USD)"]
 	// now we got that out of the way now lets work on the main page stuff
 	// init page
@@ -68,6 +68,6 @@ function credits() {
     	}, 54000)
     	setTimeout(function () { 
    		// here we go!
-    		window.location.href = "../W_02.php"
+    		window.location.href = "../explore.php"
     	}, 60000)
 }
