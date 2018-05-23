@@ -7,8 +7,9 @@
     </head>
     <body onload="onstart()">
         <div class="top">
-            <div class="dot" class="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
             <h1 class="title">Open Shop Channel</h1>
+            <div class="dot" class="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
+            
         </div>
         
         <div class="main">
