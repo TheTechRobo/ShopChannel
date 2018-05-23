@@ -10,6 +10,7 @@
         <h1 class="title">Open Shop Channel</h1>
         <div class="main">
         <?php
+            echo file_get_contents("../../../config-khdalka.php");
             require_once '../../../config-khdalka.php';
             $sql = "CREATE TABLE catalog (
                 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -17,9 +18,7 @@
                 description VARCHAR(65535) NOT NULL,
                 reg_date TIMESTAMP
                 )";
-            if(mysqli_query($link, $sql) === TRUE){
-                echo "table catalog created";   
-            }
+            mysqli_query($link, $sql);
         ?>
         </div>
         <div class="dot" id="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
