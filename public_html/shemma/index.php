@@ -17,8 +17,7 @@
 
             $catalog = mysqli_query($link, "SELECT * FROM catalog");
             while($row = mysqli_fetch_assoc($catalog)){
-                echo $row['name']. " - ". $row['description'];
-                echo "<br />";
+                print_r($row);
             }
         ?>
         </div>
