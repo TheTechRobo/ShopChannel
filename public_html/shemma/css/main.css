@@ -1,0 +1,19 @@
+.dot {
+    color: #8C8C8C;
+}
+#line_top {
+    position: absolute;
+    left: 4px;
+    top: 59px;
+    width: 473px;
+    height: 10px;
+    z-index: 98;
+}
+#line_bottom {
+    position: absolute;
+    left: 4px;
+    top: 363px;
+    width: 600px;
+    height: 10px;
+    z-index: 100;
+}
