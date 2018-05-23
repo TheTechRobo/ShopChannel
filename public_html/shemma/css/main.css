@@ -8,6 +8,7 @@
     width: 473px;
     height: 10px;
     z-index: 98;
+    
 }
 .line_bottom {
     position: absolute;
@@ -18,11 +19,12 @@
     z-index: 100;
 }
 .main {
-    padding-top: 60px;
+    padding-top: 83px;
     padding-left: 5px;
 }
 .top {
     position: fixed;
+    background:white;
 }
 .bottom {
     position: fixed;
