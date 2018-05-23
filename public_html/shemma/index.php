@@ -8,7 +8,7 @@
     <body onload="onstart()">
         <div class="top">
             <h1 class="title">Open Shop Channel</h1>
-            <div class="dot" class="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
+            <div class="dot line_top">･･･････････････････････････････････････････････････････････････････････････</div>
             
         </div>
         
@@ -26,7 +26,7 @@
         ?>
         </div>
         <div class="bottom">
-            <div class="dot" class="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
+            <div class="dot line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
         </div>
     </body>
 </html>
