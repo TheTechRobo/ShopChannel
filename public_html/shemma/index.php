@@ -11,15 +11,15 @@
         <div class="main">
         <?php
             require_once '../../../config-khdalka.php';
-            $sql = "CREATE TABLE catalog (
-                id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                name VARCHAR(255) NOT NULL,
-                description VARCHAR(5000) NOT NULL,
-                reg_date TIMESTAMP
-                )";
-            if(mysqli_query($link, $sql) === TRUE){
-                echo "yes";
-            };
+            $post_into_catalog = "INSERT INTO catalog (name, description)
+            VALUES ('Doddy-". rand(1000,999999) ."', 'Hello World')";
+            mysqli_query($link, $post_into_catalog);
+
+            $catalog = mysql_query("SELECT * FROM catalog") or die(mysql_error());
+            while($row = mysql_fetch_array($catalog)){
+                echo $row['name']. " - ". $row['description'];
+                echo "<br />";
+            }
         ?>
         </div>
         <div class="dot" id="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
