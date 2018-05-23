@@ -6,7 +6,9 @@
         <script src="../js/wiicore.js"></script>
     </head>
     <body onload="onstart()">
-        <div class="dot" id="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
+        <div class="top">
+            <div class="dot" class="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
+        </div>
         <h1 class="title">Open Shop Channel</h1>
         <div class="main">
         <?php
@@ -21,6 +23,8 @@
             }
         ?>
         </div>
-        <div class="dot" id="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
+        <div class="bottom">
+            <div class="dot" class="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
+        </div>
     </body>
 </html>

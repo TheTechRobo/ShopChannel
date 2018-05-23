@@ -1,7 +1,7 @@
 .dot {
     color: #8C8C8C;
 }
-#line_top {
+.line_top {
     position: absolute;
     left: 4px;
     top: 59px;
@@ -9,7 +9,7 @@
     height: 10px;
     z-index: 98;
 }
-#line_bottom {
+.line_bottom {
     position: absolute;
     left: 4px;
     top: 363px;
@@ -20,4 +20,10 @@
 .main {
     padding-top: 4px;
     padding-left: 5px;
+}
+.top {
+    position: fixed;
+}
+.bottom {
+    position: fixed;
 }
