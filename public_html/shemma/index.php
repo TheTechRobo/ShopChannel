@@ -6,12 +6,6 @@
         <script src="../js/wiicore.js"></script>
     </head>
     <body onload="onstart()">
-        <div class="top">
-            <h1 class="title">Open Shop Channel</h1>
-            <div class="dot line_top">･･･････････････････････････････････････････････････････････････････････････</div>
-            
-        </div>
-        
         <div class="main">
         <?php
             require_once '../../../config-khdalka.php';
@@ -25,8 +19,6 @@
             }
         ?>
         </div>
-        <div class="bottom">
-            <div class="dot line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
-        </div>
+
     </body>
 </html>
