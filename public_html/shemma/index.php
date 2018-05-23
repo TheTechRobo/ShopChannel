@@ -15,8 +15,8 @@
             VALUES ('Doddy-". rand(1000,999999) ."', 'Hello World')";
             mysqli_query($link, $post_into_catalog);
 
-            $catalog = mysql_query("SELECT * FROM catalog") or die(mysql_error());
-            while($row = mysql_fetch_array($catalog)){
+            $catalog = mysqli_query($link, "SELECT * FROM catalog");
+            while($row = mysqli_fetch_assoc($catalog)){
                 echo $row['name']. " - ". $row['description'];
                 echo "<br />";
             }
