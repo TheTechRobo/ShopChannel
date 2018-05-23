@@ -10,7 +10,7 @@
         <h1 class="title">Open Shop Channel</h1>
         <div class="main">
         <?php
-            require_once '../../config-khdalka.php';
+            require_once '../../../config-khdalka.php';
             $sql = "CREATE TABLE catalog (
                 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                 name VARCHAR(255) NOT NULL,
