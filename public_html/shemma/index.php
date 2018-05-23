@@ -8,8 +8,9 @@
     <body onload="onstart()">
         <div class="top">
             <div class="dot" class="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
+            <h1 class="title">Open Shop Channel</h1>
         </div>
-        <h1 class="title">Open Shop Channel</h1>
+        
         <div class="main">
         <?php
             require_once '../../../config-khdalka.php';
