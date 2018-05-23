@@ -11,7 +11,7 @@
     
 }
 .line_bottom {
-    position: absolute;
+    position: fixed;
     left: 4px;
     top: 363px;
     width: 600px;
@@ -25,7 +25,4 @@
 .top {
     position: fixed;
     background:white;
-}
-.bottom {
-    position: fixed;
 }
