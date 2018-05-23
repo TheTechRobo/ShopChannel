@@ -9,7 +9,6 @@
         <div class="dot" id="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
         <h1 class="title">Open Shop Channel</h1>
         <div class="main">
-            <img width="40px" height="40px" src="https://ih1.redbubble.net/image.483633943.6622/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u4.jpg"></img>
         </div>
         <div class="dot" id="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
     </body>
