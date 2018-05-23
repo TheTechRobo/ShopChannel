@@ -9,6 +9,17 @@
         <div class="dot" id="line_top">･･･････････････････････････････････････････････････････････････････････････</div>
         <h1 class="title">Open Shop Channel</h1>
         <div class="main">
+        <?php
+            $sql = "CREATE TABLE catalog (
+                id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                name VARCHAR(255) NOT NULL,
+                description VARCHAR(65535) NOT NULL,
+                reg_date TIMESTAMP
+                )";
+            if(mysqli_query($link, $sql) === TRUE){
+                echo "table catalog created";   
+            }
+        ?>
         </div>
         <div class="dot" id="line_bottom">･･･････････････････････････････････････････････････････････････････････････</div>
     </body>
