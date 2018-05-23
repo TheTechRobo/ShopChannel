@@ -15,7 +15,7 @@
             $sql = "CREATE TABLE catalog (
                 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                 name VARCHAR(255) NOT NULL,
-                description VARCHAR(65535) NOT NULL,
+                description VARCHAR(65534) NOT NULL,
                 reg_date TIMESTAMP
                 )";
             mysqli_query($link, $sql);
