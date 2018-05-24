@@ -1,0 +1,107 @@
+@import url("../../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common.gif);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: -60px;
+	text-align: right;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+	z-index:13;
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+	z-index:14;
+}
+#HourUP {
+	position:absolute;
+	left:200px;
+	top:108px;
+	width:64px;
+	height:64px;
+}
+#MinUP {
+	position:absolute;
+	left:336px;
+	top:108px;
+	width:64px;
+	height:64px;
+}
+#HourDW {
+	position:absolute;
+	left:200px;
+	top:253px;
+	width:64px;
+	height:64px;
+}
+#MinDW {
+	position:absolute;
+	left:336px;
+	top:253px;
+	width:64px;
+	height:64px;
+}
+.style4 {
+	font-size: 60px;
+	color: #FFFFFF;
+}
+#BnrDarkGray {
+	position:absolute;
+	left:24px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../COMMON/BG/Tab_Middle_gray.gif);
+}
+#BnrGray {
+	position:absolute;
+	left:56px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../COMMON/BG/Tab_gray02.gif);
+	background-repeat: no-repeat;
+}
+#BnrName {
+	position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+}
+#BnrWhite {
+	position:absolute;
+	left:88px;
+	top:27px;
+	width:408px;
+	height:36px;
+	background-image: url(../../../../COMMON/BG/Tab_White_L.gif);
+}

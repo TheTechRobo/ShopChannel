@@ -1,0 +1,222 @@
+@import url("../../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common.gif);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: -60px;
+	text-align: right;
+}
+#List01 {
+	position:absolute;
+	left:44px;
+	top:82px;
+	width:240px;
+	height:76px;
+}
+#List02 {
+	position:absolute;
+	left:324px;
+	top:82px;
+	width:240px;
+	height:76px;
+}
+#List03 {
+	position:absolute;
+	left:44px;
+	top:178px;
+	width:240px;
+	height:76px;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+	
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+	
+}
+
+#List01Check {
+	position:absolute;
+	left:34px;
+	top:72px;
+	width:24px;
+	height:96px;
+	visibility: hidden;
+}
+#List02Check {
+	position:absolute;
+	left:314px;
+	top:72px;
+	width:24px;
+	height:96px;
+	visibility: hidden;
+}
+#List03Check {
+	position:absolute;
+	left:34px;
+	top:168px;
+	width:24px;
+	height:96px;
+	visibility: hidden;
+}
+#List01CheckR {
+	position:absolute;
+	left:236px;
+	top:0px;
+	width:24px;
+	height:96px;
+}
+#List02CheckR {
+	position:absolute;
+	left:236px;
+	top:0px;
+	width:24px;
+	height:96px;
+}
+#List03CheckR {
+	position:absolute;
+	left:236px;
+	top:0px;
+	width:24px;
+	height:96px;
+	
+}
+#BnrGray {
+	position:absolute;
+	left:24px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../COMMON/BG/Tab_gray.gif);
+}
+#BnrName {
+	position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+}
+#BnrWhite {
+	position:absolute;
+	left:56px;
+	top:27px;
+	width:408px;
+	height:38px;
+	background-image: url(../../../../COMMON/BG/Tab_White_L.gif);
+	background-repeat: no-repeat;
+}
+#ListIcon01 {
+	position:absolute;
+	left:148px;
+	top:104px;
+	width:44px;
+	height:32px;
+}
+#ListIcon02 {
+	position:absolute;
+	left:128px;
+	top:200px;
+	width:64px;
+	height:32px;
+}
+#ListIcon03 {
+	position:absolute;
+	left:132px;
+	top:283px;
+	width:56px;
+	height:58px;
+}
+#List04 {
+	position:absolute;
+	left:324px;
+	top:178px;
+	width:240px;
+	height:76px;
+}
+#List05 {
+	position:absolute;
+	left:44px;
+	top:274px;
+	width:240px;
+	height:76px;
+}
+#List06 {
+	position:absolute;
+	left:324px;
+	top:274px;
+	width:240px;
+	height:76px;
+}
+#List04Check {
+	position:absolute;
+	left:314px;
+	top:168px;
+	width:24px;
+	height:96px;
+	visibility: hidden;
+}
+#List04CheckR {
+	position:absolute;
+	left:236px;
+	top:0px;
+	width:24px;
+	height:96px;
+}
+#List05CheckR {
+	position:absolute;
+	left:236px;
+	top:0px;
+	width:24px;
+	height:96px;
+}
+#List06Check {
+	position:absolute;
+	left:314px;
+	top:264px;
+	width:24px;
+	height:96px;
+	visibility: hidden;
+}
+#List06CheckR {
+	position:absolute;
+	left:236px;
+	top:0px;
+	width:24px;
+	height:96px;
+}
+#List05Check {
+	position:absolute;
+	left:34px;
+	top:264px;
+	width:24px;
+	height:96px;
+	visibility: hidden;
+}

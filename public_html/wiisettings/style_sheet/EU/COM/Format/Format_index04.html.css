@@ -1,0 +1,115 @@
+@import url("../../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common.gif);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: -60px;
+	text-align: right;
+}
+#UnderR {	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+	z-index:7;
+}
+#BnrGray {
+	position:absolute;
+	left:24px;
+	top:35px;
+	width:32px;
+	height:26px;
+	z-index:3;
+	background-image: url(../../../../COMMON/BG/Tab_gray.gif);
+}
+#BnrWhite {
+	position:absolute;
+	left:56px;
+	top:27px;
+	width:408px;
+	height:36px;
+	z-index:6;
+	background-image: url(../../../../COMMON/BG/Tab_White_L.gif);
+}
+#BnrIcon {
+	position:absolute;
+	left:8px;
+	top:0px;
+	width:64px;
+	height:32px;
+	z-index:1;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(../../../../COMMON/Bnr_Icon/Bnr_Format.gif);
+}
+#BnrName {	position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+	z-index:11;
+}
+#ListIcon01 {
+	position:absolute;
+	left:128px;
+	top:148px;
+	width:44px;
+	height:42px;
+	z-index:7;
+}
+#ListIcon02 {
+	position:absolute;
+	left:130px;
+	top:244px;
+	width:40px;
+	height:40px;
+	z-index:8;
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+	z-index:12;
+}
+.style2 {
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+	z-index:13;
+}
+#BnrIcon {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:32px;
+	height:32px;
+	z-index:12;
+}
+.style3 {color: #FFFFFF}

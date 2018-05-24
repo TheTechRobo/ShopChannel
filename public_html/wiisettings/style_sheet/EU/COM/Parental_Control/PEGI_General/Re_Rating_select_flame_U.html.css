@@ -1,0 +1,37 @@
+body {
+	background-image: url(../../../../../COMMON/BG/BG_common_U.gif);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+}
+#BnrGray {
+	position:absolute;
+	left:24px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../../COMMON/BG/Tab_gray.gif);
+}
+#BnrName {position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+}
+#BnrWhite {
+	position:absolute;
+	left:56px;
+	top:27px;
+	width:408px;
+	height:36px;
+	background-image: url(../../../../../COMMON/BG/Tab_White_L.gif);
+}

@@ -1,0 +1,42 @@
+.Title_name {
+	font-family: "FOT-ÉçÉ_ÉìNTLG Pro DB";
+	font-size: 24px;
+	color: #333333;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+#myUnderRBtn {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+	background-image: url(../COMMON/BTN/Under.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: bold;
+	line-height:310%;
+}
+#myUnderLBtn {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+	background-image: url(../COMMON/BTN/Under.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: bold;
+	line-height:310%;
+}

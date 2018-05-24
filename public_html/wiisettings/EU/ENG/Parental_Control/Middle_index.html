@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Parental Control Middle_index</title>
+<link href="../../../style_sheet/Title_name.css" rel="stylesheet" type="text/css" />
+<link href="../../../style_sheet/List.css" rel="stylesheet" type="text/css" />
+<link href="../../../style_sheet/EU/COM/Parental_Control/Middle_index.html.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript" src="../../../js/iplSetting.js">
+</script>
+<script type="text/JavaScript" src="../../../js/common.js">
+</script>
+<script type="text/JavaScript" src="../../../js/MM_swapImage.js">
+</script>
+<script type="text/JavaScript" src="../../../js/EU/COM/Parental_Control.js">
+</script>
+</head>
+
+
+<body onload="MM_preloadImages('../../../COMMON/BG/BG_common_M.gif','../../../COMMON/BG/List_flame_L.gif','../../../COMMON/BG/List_flame_R.gif','../../../COMMON/BTN/Allow_D_off.gif','../../../COMMON/BTN/Allow_D_on.gif','../../../COMMON/BTN/Allow_U_off.gif','../../../COMMON/BTN/Allow_U_on.gif','../../../COMMON/BTN/Btn_List03.gif','../../../COMMON/BTN/List03_off.png','../../../COMMON/BTN/List03_on.png','../../../COMMON/BTN/Under_off.png','../../../COMMON/BTN/Under_on.png','../../../COMMON/BG/Tab_White_L.gif','../../../COMMON/BG/Tab_gray.gif','../../../COMMON/BTN/Btn_List03.gif')">
+
+<div id="BnrGray"></div>
+<div id="BnrWhite">
+  <div class="Title_name" id="BnrName">Parental Controls</div>
+</div>
+
+<div class="Label0" id="Label0">oooo</div>
+<div class="Label1" id="Label1"></div>
+
+<div class="List01Btn" id="List01Btn">Game Settings and PIN</div>
+<div class="List02Btn" id="List02Btn">Other Settings</div>
+
+<div class="UnderRBtn" id="UnderRBtn">Settings Complete</div>
+<div class="UnderLBtn" id="UnderLBtn">Clear settings</div>
+
+<a id="List01" href="#" onclick="ParentalMiddleIndex_setLocation(0)" onmouseout="MM_swapImgRestore()" ><img src="../../../COMMON/BTN/List03_off.png" name="Image21" width="400" height="64" border="0" id="Image21" onmouseover="MM_swapImage('Image21','','../../../COMMON/BTN/List03_on.png',1)" /></a>
+<a id="List02" href="#" onclick="ParentalMiddleIndex_setLocation(1)" onmouseout="MM_swapImgRestore()" ><img src="../../../COMMON/BTN/List03_off.png" name="Image22" width="400" height="64" border="0" id="Image22" onmouseover="MM_swapImage('Image22','','../../../COMMON/BTN/List03_on.png',1)" /></a>
+<div id="List01Check">
+  <div id="List01CheckR"><img src="../../../COMMON/BG/List_flame_R.gif" width="24" height="80" /></div>
+<img src="../../../COMMON/BG/List_flame_L.gif" width="24" height="80" /></div>
+<div id="List02Check">
+  <div id="List02CheckR"><img src="../../../COMMON/BG/List_flame_R.gif" width="24" height="80" /></div>
+<img src="../../../COMMON/BG/List_flame_L.gif" width="24" height="80" /></div>
+
+<!--
+<a id="ListUP" href="#" onclick="_commonSetSE(1)" onmouseout="MM_swapImgRestore()" ><img src="../../../COMMON/BTN/Allow_U_off.gif" name="Image17" width="72" height="72" border="0" id="Image17" onmouseover="MM_swapImage('Image17','','../../COMMON/BTN/Allow_U_on.gif',1)" /></a>
+<a id="ListDW" href="#" onclick="_commonSetSE(1)" onmouseout="MM_swapImgRestore()" ><img src="../../../COMMON/BTN/Allow_D_off.gif" name="Image11" width="72" height="72" border="0" id="Image11" onmouseover="MM_swapImage('Image11','','../../COMMON/BTN/Allow_D_on.gif',1)" /></a>
+-->
+<a id="UnderR" href="#" onclick="ParentalMiddleIndex_Complete()" onmouseout="MM_swapImgRestore()" ><img src="../../../COMMON/BTN/Under_off.png" name="Image61" width="272" height="72" border="0" id="Image61" onmouseover="MM_swapImage('Image61','','../../../COMMON/BTN/Under_on.png',1)" /></a>
+<a id="UnderL" href="Setting_Clear_YN.html" onclick="_commonSetSE(3)" onmouseout="MM_swapImgRestore()" ><img src="../../../COMMON/BTN/Under_off.png" name="Image6" width="272" height="72" border="0" id="Image6" onmouseover="MM_swapImage('Image6','','../../../COMMON/BTN/Under_on.png',1)" /></a>
+
+</body>
+
+<script type="text/javascript">
+
+var Label0_Text = new Array("Your PIN and secret question<br />have been set, but you still<br />need to choose Parental Controls." , "<br />Which settings do you want to change?" );
+var data = wii.pageID;
+
+if( 32==data )
+{
+	document.all.Label0.innerHTML = Label0_Text[0];
+}
+else if( 33==data )
+{
+	document.all.Label0.innerHTML = Label0_Text[1];
+}
+
+</script>
+
+</html>

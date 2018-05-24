@@ -1,0 +1,119 @@
+@import url("../../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common.gif);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: -60px;
+	text-align: right;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+}
+#List01Check {
+	position:absolute;
+	left:38px;
+	top:136px;
+	width:24px;
+	height:160px;
+	visibility: hidden;
+}
+#List01CheckR {
+	position:absolute;
+	left:196px;
+	top:0px;
+	width:24px;
+	height:160px;
+	z-index:1;
+}
+#List02Check {
+	position:absolute;
+	left:286px;
+	top:136px;
+	width:24px;
+	height:160px;
+	visibility: hidden;
+}
+#List02CheckR {
+	position:absolute;
+	left:260px;
+	top:0px;
+	width:24px;
+	height:160px;
+	z-index:1;
+}
+#List01 {
+	position:absolute;
+	left:48px;
+	top:146px;
+	width:200px;
+	height:140px;
+	z-index:2;
+}
+#List02 {
+	position:absolute;
+	left:296px;
+	top:146px;
+	width:264px;
+	height:140px;
+	z-index:2;
+}
+#BnrDarkGray {
+	position:absolute;
+	left:24px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../COMMON/BG/Tab_Middle_gray.gif);
+}
+#BnrGray {position:absolute;
+	left:54px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../COMMON/BG/Tab_gray02.gif);
+}
+#BnrName {
+	position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+}
+#BnrWhite {
+	position:absolute;
+	left:86px;
+	top:27px;
+	width:408px;
+	height:36px;
+	background-image: url(../../../../COMMON/BG/Tab_White_L.gif);
+}

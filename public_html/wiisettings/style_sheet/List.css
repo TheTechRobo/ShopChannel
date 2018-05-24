@@ -1,0 +1,47 @@
+.List {
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.MyList {
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#myPic1 {
+	position:absolute;
+	left:354px;
+	top:92px;
+	width:136px;
+	height:56px;
+	background-image: url(../COMMON/List_Icon/Icon_Nin_WiFi_Connect.png);
+	visibility: hidden;
+}
+#myPic2 {
+	position:absolute;
+	left:354px;
+	top:188px;
+	width:136px;
+	height:56px;
+	background-image: url(../COMMON/List_Icon/Icon_Nin_WiFi_Connect.png);
+	visibility: hidden;
+}
+#myPic3 {
+	position:absolute;
+	left:354px;
+	top:284px;
+	width:136px;
+	height:56px;
+	background-image: url(../COMMON/List_Icon/Icon_Nin_WiFi_Connect.png);
+	visibility: hidden;
+}

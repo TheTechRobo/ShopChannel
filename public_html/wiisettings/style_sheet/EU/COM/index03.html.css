@@ -1,0 +1,141 @@
+@import url("../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin: 0px 0px 0px 0px;
+	background-image: url(../../../COMMON/BG/BG_common.gif);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+#List01 {
+	position:absolute;
+	left:104px;
+	top:78px;
+	width:395px;
+	height:60px;
+}
+#List02 {
+	position:absolute;
+	left:104px;
+	top:150px;
+	width:400px;
+	height:60px;
+}
+#List03 {
+	position:absolute;
+	left:104px;
+	top:222px;
+	width:400px;
+	height:60px;
+}
+#Lbtn {
+	position:absolute;
+	left:22px;
+	top:180px;
+	width:72;
+	height:72;
+}
+#Rbtn {
+	position:absolute;
+	left:514px;
+	top:180px;
+	width:72;
+	height:72;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+}
+#BnrWhite {
+	position:absolute;
+	left:24px;
+	top:27px;
+	width:408px;
+	height:36px;
+	background-image: url(../../../COMMON/BG/Tab_White_L.gif);
+	background-repeat: no-repeat;
+}
+#BnrName {
+	position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+}
+#List04 {
+	position:absolute;
+	left:104px;
+	top:294px;
+	width:400px;
+	height:60px;
+}
+#Page01Icon {
+	position:absolute;
+	left:536px;
+	top:376px;
+	width:40px;
+	height:32px;
+	background-image: url(../../../COMMON/List_Icon/Icon_Index_Page_on.gif);
+}
+#Page02Icon {
+	position:absolute;
+	left:488px;
+	top:376px;
+	width:40px;
+	height:32px;
+	background-image: url(../../../COMMON/List_Icon/Icon_Index_Page_off.gif);
+}
+#Page03Icon {
+	position:absolute;
+	left:440px;
+	top:376px;
+	width:40px;
+	height:32px;
+	background-image: url(../../../COMMON/List_Icon/Icon_Index_Page_off.gif);
+}
+.style2 {font-weight: bold}
+
+#List01Check {
+	position:absolute;
+	left:104px;
+	top:78px;
+	width:395px;
+	height:60px;
+	visibility:hidden;
+}
+#List02Check {
+	position:absolute;
+	left:104px;
+	top:150px;
+	width:400px;
+	height:60px;
+	visibility:hidden;
+}
+#List03Check {
+	position:absolute;
+	left:104px;
+	top:222px;
+	width:400px;
+	height:60px;
+	visibility:hidden;
+}
+#List04Check {
+	position:absolute;
+	left:104px;
+	top:294px;
+	width:400px;
+	height:60px;
+	visibility:hidden;
+}

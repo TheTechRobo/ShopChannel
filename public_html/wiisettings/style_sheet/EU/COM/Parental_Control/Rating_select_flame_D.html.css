@@ -1,0 +1,32 @@
+body {
+	background-image: url(../../../../COMMON/BG/BG_common_D.gif);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:3px;
+	width:272px;
+	height:72px;
+	
+}
+.Under_flame {
+	font-size: 24px;
+	color: #333333;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:3px;
+	width:272px;
+	height:72px;
+	
+}

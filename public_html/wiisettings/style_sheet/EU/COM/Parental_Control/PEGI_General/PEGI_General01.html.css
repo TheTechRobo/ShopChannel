@@ -1,0 +1,62 @@
+body {
+	background-repeat: repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../../COMMON/BG/BG_common_M.gif);
+}
+.style1 {
+	color: #FFFFFF;
+	font-family: "Wii NTLG Gothic Latin Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+.Rating_waku {
+	color: #FFFFFF;
+	background-repeat: repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+}
+#ListDW {
+	position:absolute;
+	left:528px;
+	top:216px;
+	width:72px;
+	height:72px;
+}
+#List01 {
+	position:absolute;
+	left:24px;
+	top:157px;
+	width:496px;
+	height:120px;
+	visibility: visible;
+	z-index:2;
+}
+#List01Check {
+	position:absolute;
+	left:36px;
+	top:169px;
+	width:96px;
+	height:96px;
+	visibility: hidden;
+	z-index:1;
+}
+.style5 {
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	font-family: "Wii NTLG Gothic Latin Regular", "Wii NTLG PGothic Latin Regular";
+}
+table#Rating {
+	position:absolute;
+	top:157px;
+}

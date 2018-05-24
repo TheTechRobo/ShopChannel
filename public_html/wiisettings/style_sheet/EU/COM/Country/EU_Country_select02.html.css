@@ -1,0 +1,146 @@
+body {
+	background-repeat: repeat;
+	margin-left: 0px;
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common_M.gif);
+}
+#ListUP {
+	position:absolute;
+	left:528px;
+	top:12px;
+	width:72px;
+	height:72px;
+	z-index:1;
+}
+#List01 {
+	position:absolute;
+	left:88px;
+	top:12px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List02 {
+	position:absolute;
+	left:88px;
+	top:68px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List03 {
+	position:absolute;
+	left:88px;
+	top:124px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List01Check {
+	position:absolute;
+	left:79px;
+	top:8px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List01CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+}
+#List02Check {
+	position:absolute;
+	left:79px;
+	top:64px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List02CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+}
+#List03Check {
+	position:absolute;
+	left:79px;
+	top:120px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List03CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+}
+#ListDW {
+	position:absolute;
+	left:528px;
+	top:218px;
+	width:72px;
+	height:72px;
+	z-index:2;
+}
+#List04 {
+	position:absolute;
+	left:88px;
+	top:180px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List05 {
+	position:absolute;
+	left:88px;
+	top:236px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List04Check {
+	position:absolute;
+	left:79px;
+	top:176px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List04CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+	z-index:1;
+}
+#List05Check {
+	position:absolute;
+	left:79px;
+	top:232px;
+	width:24px;
+	height:64px;
+	z-index:8;
+	visibility: hidden;
+}
+#List05CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+	z-index:13;
+}
