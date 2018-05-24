@@ -13,7 +13,7 @@
 			<p><a href="download/prodinfo.php">Product Page</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
 			<p><a href="debug.php">debugmii</a></p>
-			<p><a href="/wiisettings/index.html">Wii Settings</a></p>
+			<p><a href="/shemma/index.php">Shemma</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
 			<p id="test" style="display: none;"></p>
 			<script>
