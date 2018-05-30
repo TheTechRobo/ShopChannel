@@ -6,8 +6,8 @@ function credits() {
 	var initBottom = "Credits";
 	var finalInfo = "The End."
 	var finalBottom = "Thanks for using Open Shop Channel!"
-	var creditInfo = ["Frontend", "Patcher", "Backend", "Button Design", "Dynamic Banners", "Development Help", "Credits Page", "Donations"]
-	var creditBottom = ["CornierKhan1", "KcrPL", "dhtdht020 and DarkPheonix", "Iyenal","Larsenv","Snoot", "Shinji On A Cup","Sesurio - $2.00 (USD)"]
+	var creditInfo = ["Frontend", "Patcher", "Backend", "Button Design", "Dynamic Banners", "Development Help", "Credits Page", "Donations", "Donations"]
+	var creditBottom = ["CornierKhan1", "KcrPL", "dhtdht020 and DarkPheonix", "Iyenal","Larsenv","Snoot", "Shinji On A Cup","Sesurio - $2.00 (USD)","Pengu - $4.00 (USD)"]
 	// now we got that out of the way now lets work on the main page stuff
 	// init page
 	document.getElementById("firstchild").innerHTML = initInfo
