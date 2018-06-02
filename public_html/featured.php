@@ -10,7 +10,7 @@
 	    sound.playBGM();
 	</script>
 </head>
-	<body>
+	<body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png,/*url*/'asset/button/exploreC.png'')">
 		<p class="heading">Open Shop Channel<span class="highlighted"> Featured </span></p>
 		
 			<!--The featured Homebrew of the (INSERT PERIOD OF TIME)!-->
