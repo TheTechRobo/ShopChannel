@@ -6,8 +6,8 @@ function credits() {
 	var initBottom = "Credits";
 	var finalInfo = "The End."
 	var finalBottom = "Thanks for using Open Shop Channel!"
-	var creditInfo = ["Frontend", "Patcher", "Backend", "Button Design", "Dynamic Banners", "Development Help", "Credits Page", "Donations", "Donations"]
-	var creditBottom = ["CornierKhan1", "KcrPL", "dhtdht020 and DarkPheonix", "Iyenal","Larsenv","Snoot", "Shinji On A Cup","Pengu - $4.00 (USD)"]
+	var creditInfo = ["Frontend", "Patcher", "Backend", "Button Design", "Dynamic Banners", "Development Help", "Credits Page", "Donations", "Donations", "Open Shop Channel for the Nintendo Wii"]
+	var creditBottom = ["CornierKhan1", "KcrPL", "dhtdht020 and DarkPheonix", "Iyenal","Larsenv","Snoot", "Shinji On A Cup","Pengu - $4.00 (USD)", "Copyright (C) 2018  Open Shop Channel Team"]
 	// now we got that out of the way now lets work on the main page stuff
 	// init page
 	document.getElementById("firstchild").innerHTML = initInfo
@@ -60,6 +60,12 @@ function credits() {
     		document.getElementById("debug").innerHTML = "timeout hit. changing to " + creditInfo[7] + ", " + creditBottom[7]
     		document.getElementById("firstchild").innerHTML = creditInfo[7]
     		document.getElementById("secondchild").innerHTML = creditBottom[7]
+    	}, 48000)
+	setTimeout(function () { 
+   		// here we go!
+    		document.getElementById("debug").innerHTML = "timeout hit. changing to " + creditInfo[7] + ", " + creditBottom[7]
+    		document.getElementById("firstchild").innerHTML = creditInfo[8]
+    		document.getElementById("secondchild").innerHTML = creditBottom[8]
     	}, 48000)
     	setTimeout(function () { 
    		// here we go!
