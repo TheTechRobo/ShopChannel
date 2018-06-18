@@ -1,25 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!doctype html>
+<html>
 <head>
-<title> creds </title>
-<link rel="stylesheet" type="text/css" href="../main.css">
-<script type="text/javascript" src="creds.js"></script>
+<meta charset="utf-8">
+<title>Credits</title>
 </head>
-
-	<body onload="credits();" style="">
-		<!-- <p>(This document can be stylised later. We need to focus on other parts first.)</p> -->
-		<!-- Your boy Shinji Ikari got your back -->
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<p class="heading" id="firstchild" style="font-size:40px; margin:10px; padding:2px;">shouldn't appear</p>
-		<p class="heading" style="font-size:20px; margin:0; padding:0;" id="secondchild">shouldn't appear also</p>
-		<p id="debug" style="font-size:0; color: white;"></p>
-	</body>
-
+<body>
+<button onClick="window.history.back();" align="center">Back</button>
+<h1 align="center">About OSC</h1>
+<li align="center">Backend - dhtdht020, DarkPheonix </li>
+<li align="center">Frontend - CornierKhan1</li>
+<li align="center">Dynamic Banners - Larsenv</li>
+<li align="center">Development Assistance - Snoot</li>
+<div></div>
+<p align="center">Open Shop Channel for the Nintendo Wii - Copyright (C) 2018 Open Shop Channel Team.</p>
+<p align="center">This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+<p align="center">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.</p>
+</body>
 </html>
