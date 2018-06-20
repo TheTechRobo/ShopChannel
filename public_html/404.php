@@ -12,9 +12,13 @@ function goBack() {
     window.history.back();
 }
 </script>
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/button.js"></script>
+        <script type="text/javascript" src="js/wiicore.js"></script>
 </HEAD>
 <BODY>
-<p>The page you requested cannot be found.</p>
-<p><button onclick="goBack()">Return</button></p>
+<h1 style="color:#009ac7;">Error 404: Not Found.</h1>
+<p>The page you requested cannot be found or no longer exists. Please contact us at our Discord if you believe this is an error.</p>
+<p><img alt="Return Button" id="returnbut" dir="ltr" height="100" src="asset/button/returnA.png" width="200" onmousedown="FP_swapImg(1,1,/*id*/'returnbut',/*url*/'asset/button/returnC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'returnbut',/*url*/'asset/button/returnB.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'featured.php')"></p>
 </BODY>
 </HTML>
