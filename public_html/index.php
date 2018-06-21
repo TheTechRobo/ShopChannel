@@ -12,6 +12,7 @@
 			<p><a href="explore.php">Explore</a></p>
 			<p><a href="download/prodinfo.php">Product Page</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
+            <p><a href="/error/list.php">Error List</a></p>
 			<p><a href="debug.php">debugmii</a></p>
 			<p><a href="/shemma/index.php">Shemma</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
