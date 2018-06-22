@@ -14,9 +14,11 @@
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
             <p><a href="/error/list.php">Error List</a></p>
 			<p><a href="debug.php">debugmii</a></p>
-			<p><a href="/shemma/index.php">Shemma</a></p>
+			<p><a href="lab/shemma/index.php">Shemma</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
 			<p id="test" style="display: none;"></p>
+        <p>Open Shop Channel for the Nintendo Wii
+            Copyright (C) 2018  Open Shop Channel Team</p>
 			<script>
 			document.getElementById('test').innerHTML = new wiiShop().connecting
 			</script>
