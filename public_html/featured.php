@@ -1,13 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-	<link href="main.css" rel="stylesheet" type="text/css"/>
-	<script type="text/javascript" src="js/button.js"></script>
-	<script type="text/javascript" src="js/wiicore.js"></script>
-	<script type="text/JavaScript">
-        shop.setWallpaper(3)
-	    sound.playBGM();
+    <head>
+	    <link href="main.css" rel="stylesheet" type="text/css"/>
+	    <script type="text/javascript" src="js/button.js"></script>
+	    <script type="text/javascript" src="js/wiicore.js"></script>
+	    <script type="text/JavaScript">
+            shop.setWallpaper(3)
+	        sound.playBGM();
 	</script>
 </head>
 	<body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png')">

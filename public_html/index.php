@@ -20,7 +20,7 @@
         <p>Open Shop Channel for the Nintendo Wii
             Copyright (C) 2018  Open Shop Channel Team</p>
 			<script>
-			document.getElementById('test').innerHTML = new wiiShop().connecting
+			    document.getElementById('test').innerHTML = new wiiShop().connecting
 			</script>
 			<script type="text/javascript" src="/js/wiicore.js"></script>
 			<script>
