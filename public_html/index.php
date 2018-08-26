@@ -32,5 +32,8 @@
 				//sound.playBGM();
 				//var ecTimeout = new ECTimeout(parseInt("0"));
 			</script>
+			<script>
+            		    shop.setWallpaper(2)
+        		</script>
 		</BODY>
 </HTML>
