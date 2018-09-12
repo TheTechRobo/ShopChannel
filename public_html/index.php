@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <HTML>
 	<HEAD>
-	    <TITLE>index</TITLE>
+	    <TITLE>OSC Testing Ground</TITLE>
 	</HEAD>
 		<BODY>
 		Hello, welcome to this HTML 4.01 document.

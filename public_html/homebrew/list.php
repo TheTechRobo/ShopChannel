@@ -5,11 +5,12 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
         <title>Homebrew</title>
         <link href="../main.css" rel="stylesheet" type="text/css" />
-        <style type="text/css">
-        </style>
     </head>
-    <body class="heading">
+    <body class="heading" style="background-image: url(../asset/bg/homebrew.png); background-repeat: repeat-y">
             <p>Homebrew<span class="highlighted"> Catalogue </span></p>
             <p class="default">Games, Utilities and cool looking Demos!</p>
+        <table align="center" class="table" style="width: 100%; height: inherit">
+            	<tr><td></td></tr>
+		</table></p>
     </body>
 </html>

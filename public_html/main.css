@@ -1,4 +1,10 @@
-﻿/*Default should be used for paragraphs. It's also black, if you wanted to know.*/
+﻿/* This is supposed to make sure the page content stays within a certain resolution. */
+body {
+	width: 608px; height: 456px;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF; 
+}
+/*Default should be used for paragraphs. It's also black, if you wanted to know.*/
 .default {
 	font-size: 16px;
 	font-weight: 200;
@@ -43,11 +49,12 @@
 	border-width: 1px;
 }
 
-/*limit the page sizes so things hopefully don't go off page
-body {
-	width: 608px;
-	height: 456px;
+/* Warning (or "Red") text.*/
+.warning {
+	font-size: 16px;
+	font-weight: 200;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: red;
 }
-
-actually makes things go off page
-*/

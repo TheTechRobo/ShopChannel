@@ -9,7 +9,7 @@
 	        sound.playBGM();
 	</script>
 </head>
-	<body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png')">
+	<body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png'); initPage();">
 		<p class="heading">Open Shop Channel<span class="highlighted"> Featured </span></p>
 		
 			<!--The featured Homebrew of the (INSERT PERIOD OF TIME)!-->
