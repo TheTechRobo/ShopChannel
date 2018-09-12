@@ -15,10 +15,10 @@ We still need to figure out which delivery method is best. So far we have a WAD 
 
 ## Who?
 We are a group of homebrew fans that want to provide the easiest way to get homebrew in the safest way possible.
-The team so far consists of darky, dhtdht020, KcrPL, Larsenv and CornierKhan1.
+The team so far consists of darky, dhtdht020, KcrPL, Spotlight, Larsenv, CornierKhan1 and Billy.
 
 ## When?
-The release date of The Open Shop Channel is unfortunately unknown.
+The release date of The Open Shop Channel is planned to be released on the WSC's shutdown day.
 
 ### Keep in contact...
 https://discord.gg/by6mR5N
