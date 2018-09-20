@@ -1,0 +1,4 @@
+#34BEED Gradient
+
+Saturate by an extra 25 points, via Paint.NET for Hover.
+Darken by an extra 20 points, via Paint.NET for Press.
