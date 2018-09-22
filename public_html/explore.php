@@ -6,6 +6,7 @@
 	    <script type="text/javascript" src="js/button.js"></script>
 	    <script type="text/javascript" src="js/wiicore.js"></script>
     </head>
+    <!-- page will be replaced with newexplore.php-->
     <body onload="FP_preloadImgs(/*url*/'asset/section/patchesA.png',/*url*/'asset/section/patchesB.png',/*url*/'asset/section/patchesC.png',/*url*/'asset/section/homebrewA.png',/*url*/'asset/section/homebrewB.png',/*url*/'asset/section/homebrewC.png',/*url*/'asset/section/clubspotA.png',/*url*/'asset/section/clubspotC.png',/*url*/'asset/section/clubspotB.png',/*url*/'asset/button/returnB.png',/*url*/'asset/button/returnA.png',/*url*/'asset/button/returnC.png',/*url*/'asset/button/open2.png',/*url*/'asset/button/open3.png'); initPage();">
 		<p class="heading">Open Shop Channel<span class="highlighted"> Explore </span>
 		<span class="default">&nbsp;&nbsp;&nbsp;&nbsp; </span>
