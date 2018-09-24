@@ -12,5 +12,6 @@
         <table align="center" class="table" style="width: 100%; height: inherit">
             	<tr><td></td></tr>
 		</table></p>
+            <p><button onclick="window.history.back()">bring me back home daddy</button></p>
     </body>
 </html>
