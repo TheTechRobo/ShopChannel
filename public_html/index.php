@@ -16,6 +16,7 @@
             <p><a href="/error/list.php">Error List</a></p>
 			<p><a href="debug.php">debugmii</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
+			<p><button onmousedown="ec.checkRegistration ()">Check Registration!?</button></p>
 			<p id="test" style="display: none;"></p>
         <p>Open Shop Channel for the Nintendo Wii
             Copyright (C) 2018  Open Shop Channel Team</p>
