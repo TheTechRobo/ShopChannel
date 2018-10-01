@@ -2,23 +2,30 @@
 "Open your shop." We said. "Stop having it be closed."
 
 ## What?
-The Open Shop Channel is an alternative to The Wii Shop Channel and Homebrew Downloaders.
+The Open Shop Channel is an alternative to The Wii Shop Channel and Homebrew Downloaders for the Nintendo Wii.
 
 ## Why?
-With the Wii Shop Channel's closure in 2019 and Homebrew Repo services becoming outdated, The Open Shop Channel's purpose is to give both Homebrew Developers and Users a more comfortable experience.
+With the Wii Shop Channel's closure in 2019 and Homebrew Repo services becoming outdated and slowly dying, The Open Shop Channel's purpose is to give both Homebrew Developers and Users a more comfortable experience for downloading and installing homebrew.
 
 ## Contributions
 Please test changes before pulling, and add screenshots to issues and pull requests.
 
 ## How?
-We still need to figure out which delivery method is best. So far we have a WAD Patcher and/or private distribution of OSC WAD.
+We still need to figure out which delivery method is best. So far we have a WAD Patcher and/or private distribution of OSC WAD, but we want to make sure our service is both available easily, but also follows legal guidelines.
 
 ## Who?
 We are a group of homebrew fans that want to provide the easiest way to get homebrew in the safest way possible.
-The team so far consists of darky, dhtdht020, KcrPL, Spotlight, Larsenv, CornierKhan1 and Billy.
+The team so far consists of:
+- darky
+- dhtdht020
+- KcrPL
+- Spotlight
+- Larsenv
+- CornierKhan1
+- Billy
 
 ## When?
-The release date of The Open Shop Channel is planned to be released on the WSC's shutdown day.
+The release date of The Open Shop Channel is *planned* to be released on the WSC's shutdown day.
 
 ### Keep in contact...
 https://discord.gg/by6mR5N
