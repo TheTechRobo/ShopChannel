@@ -39,8 +39,8 @@
 <div style="width:700px">
     <div style="float:left;width:350px;">
     <p style="color:white;">Git Deployment Script</p>
-    <!-- Output deplyment info, for technical usage. Regularly commented out -->
-    <?php // echo $output; ?>
+    <!-- Output deployment info, for technical usage. -->
+    <?php echo $output; ?>
     </div>
 </div>
 </body>
