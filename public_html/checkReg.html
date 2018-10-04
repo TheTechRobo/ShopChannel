@@ -3,9 +3,21 @@
 <head>
 <meta charset="utf-8">
 <title>PLEASE WAIT</title>
+	<script type="text/javascript" src="js/wiiECommerceInterface.js"></script>
 <script type="text/javascript">
 	function loginSOAP(); {
 		shop.beginWaiting();
+		// Define IAS and ECS. People are allowed to know these URLs cause why not.
+			ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
+			iasUrl = 'https://soapy.oscwii.org/ias/services/IdentityAuthenticationSOAP';
+		wiiEC.setWebSvcUrls(ecsUrl, iasUrl);
+		    var progress = wiiEC.checkRegistration();
+    			fnName = "Account Check";
+ 			fnDesc = "Checking Account";
+			finishOp(fnName, fnDesc, progression, "done");
+		function done(progression); {
+			window.history.back();
+		}
 	}
 	</script>
 </head>
