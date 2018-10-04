@@ -6,8 +6,11 @@
 	<script type="application/javascript" src="js/wiiECommerceInterface.js"></script>
 	<script type="application/javascript" src="js/wiicore.js"></script>
 <script type="application/javascript">
-	function loginSOAP(); {
+	var ecCheck = false;
+	function loginSOAP() {
+		wiiEC.cancelOperation();
 		shop.beginWaiting();
+		var r = wiiEC.getDeviceInfo ();
 		// Define IAS and ECS. People are allowed to know these URLs cause why not.
 			ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
 			iasUrl = 'https://soapy.oscwii.org/ias/services/IdentityAuthenticationSOAP';
