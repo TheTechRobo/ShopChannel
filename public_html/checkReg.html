@@ -6,8 +6,10 @@
 	<script type="application/javascript" src="js/wiiECommerceInterface.js"></script>
 	<script type="application/javascript" src="js/wiicore.js"></script>
 <script type="application/javascript">
-	var ecCheck = false;
 	function loginSOAP() {
+		var ecCheck = true;
+		var wiiEC = new ECommerceInterface();
+		var shop = new wiiShop();
 		wiiEC.cancelOperation();
 		shop.beginWaiting();
 		var r = wiiEC.getDeviceInfo ();
