@@ -1,5 +1,6 @@
 var shop = new wiiShop();
 
+
 /*
 shop.returnToMenu() - go to wii menu
 shop.beginWaiting() - display loading thing
@@ -29,3 +30,17 @@ shop.menuBtn: "Wii Menu"
 shop.retryBtn: Try Again
 shop.connecting: "Connecting. Please wait..."
 */
+
+// uwu
+function finishOp(opName, opDesc, progress, doneFunc)
+{
+    trace("Doing op " + opName);
+
+            showProgress(true, opName, opDesc, doneFunc);
+        eval(doneFunc+"(progress)");
+    }
+
+function showProgress(flag)
+{
+    document.getElementById("debug").innerHTML = flag;
+}

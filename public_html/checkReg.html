@@ -6,28 +6,27 @@
 	<script type="application/javascript" src="js/wiiECommerceInterface.js"></script>
 	<script type="application/javascript" src="js/wiicore.js"></script>
 	<script type="application/javascript">
-        var debug = true;
-        function checkReg() {
-            shop.beginWaiting();
-            // Define IAS and ECS. People are allowed to know these URLs cause why not.
-            var ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
-            var iasUrl = 'https://soapy.oscwii.org/ias/services/IdentityAuthenticationSOAP';
-            wiiEC.setWebSvcUrls(ecsUrl, iasUrl);
-            var progress = wiiEC.checkRegistration();
-            fnName = "Account Check";
-            fnDesc = "Checking Account";
-            finishOp(fnName, fnDesc, progression, "done");
-            alert("I've just did some very special stuff.");
-
-            function done(progression) {
-                window.history.back();
+        function initPageCommon()
+        {
+            var isShoppingManualEnabled = "true";
+            if (ecSupportsSession()) {
+                isShoppingManualEnabled = wiiEC.getSessionValue("isShopManEnabled");
             }
+
+        function initPage()
+        {
+            initPageCommon();
+            OnSetTask();
+            trace("smh");
+            checkRegistered();
+        }
         }
 	</script>
 </head>
 
-<body onload="checkReg()">
+<body onload="initPage();">
 <h1 style="color: #34BEED; text-align: center;">Please Wait...</h1>
 <hr/><p style="text-align: center;">The Open Shop Channel is checking your registration. If you are not registered, OSC will automatically set you up with little to no interaction required.</p>
+<p id="debug"></p>
 	</body>
 </html>
