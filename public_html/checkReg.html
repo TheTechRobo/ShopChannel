@@ -6,12 +6,25 @@
 	<script type="application/javascript" src="js/wiiECommerceInterface.js"></script>
 	<script type="application/javascript" src="js/wiicore.js"></script>
 	<script type="application/javascript">
-        function initPageCommon()
-        {
+        function initPageCommon() {
             var isShoppingManualEnabled = "true";
             if (ecSupportsSession()) {
                 isShoppingManualEnabled = wiiEC.getSessionValue("isShopManEnabled");
             }
+            var ecsUrl = null;
+            var iasUrl = null;
+            var ccsUrl = null;
+            var ucsUrl = null;
+
+            init();
+
+            wiiEC.cancelOperation();
+            ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
+
+            iasUrl = 'https://soapy.oscwii.org/ias/services/IdentityAuthenticationSOAP';
+
+            wiiEC.setWebSvcUrls(ecsUrl, iasUrl);
+        }
 
         function initPage()
         {
@@ -19,7 +32,6 @@
             OnSetTask();
             trace("smh");
             checkRegistered();
-        }
         }
 	</script>
 </head>

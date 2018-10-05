@@ -32,6 +32,24 @@ shop.connecting: "Connecting. Please wait..."
 */
 
 // uwu
+var debug = false;
+var wii = true;
+var opera = true;
+var msie = false;
+
+function init()
+{
+    var s = navigator.userAgent.toLowerCase();
+    wii = s.indexOf('wii shop channel') + 1;
+    opera = s.indexOf('opera') + 1;
+    msie = false;
+    if (!opera) {
+        msie = s.indexOf('msie') + 1;
+        wii = false;
+    }
+    useSyncRegistration = ("getVersion" in wiiEC && "syncRegistration" in wiiEC);
+}
+
 function finishOp(opName, opDesc, progress, doneFunc)
 {
     trace("Doing op " + opName);
