@@ -16,7 +16,7 @@
             var ccsUrl = null;
             var ucsUrl = null;
 	    var testMode = 'true';
-
+			// There seems to be an issue with the JS running here.
             init();
 
             wiiEC.cancelOperation();
