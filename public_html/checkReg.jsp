@@ -15,7 +15,7 @@
             var iasUrl = null;
             var ccsUrl = null;
             var ucsUrl = null;
-	    var testMode = 'true';
+	    var testMode = 'false';
 			// There seems to be an issue with the JS running here.
             init();
 
@@ -31,6 +31,7 @@
             initPageCommon();
             OnSetTask();
             trace("smh");
+			isCheckRegisterNeeded();
             checkRegistered();
         }
 	</script>

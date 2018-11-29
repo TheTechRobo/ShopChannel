@@ -22,7 +22,7 @@ function checkRegistration()
 function isCheckRegisterNeeded()
 {
     if (ecSupportsSession()) {
-        var accountInvalid = ec.getSessionValue("accountInvalid");
+        var accountInvalid = wiiEC.getSessionValue("accountInvalid");
         if (accountInvalid == "true") {
             return true;
         }
