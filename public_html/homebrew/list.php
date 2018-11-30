@@ -1,28 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
-$servername = "osc";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
-
-// Create connection
-$conn = new mysqli($osc, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-$sql = "SELECT TITLE, AUTHOR, THUMBNAIL FROM HOMEBREW"; // I can't remember the table name smh.
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo $row["TITLE"]. $row["AUTHOR"]. '<img src="' . $row["THUMBNAIL"]. '"></img>' "<br>"; // I'm tired, this may need a fixer upperer.
-    }
-} else {
-    echo "0 results";
-}
+require_once("../database.php");
+    /* Insert into database. */
+    $db = connectMySQL();
+    $stmt = $db->prepare('SELECT * FROM `HOMEBREW` WHERE `TITLEID` = ?');
+    $stmt->bind_param('i',$_GET['titleid']);
+    $result = new_get_result($stmt);
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
