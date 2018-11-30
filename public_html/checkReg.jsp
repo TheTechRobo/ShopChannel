@@ -29,9 +29,7 @@
         function initPage()
         {
             initPageCommon();
-            OnSetTask();
-            trace("smh");
-			isCheckRegisterNeeded();
+	    isCheckRegisterNeeded();
             checkRegistered();
         }
 	</script>
