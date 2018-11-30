@@ -39,10 +39,15 @@ var msie = false;
 
 function init()
 {
+
     var s = navigator.userAgent.toLowerCase();
+    shop.endWaiting();
     wii = s.indexOf('wii shop channel') + 1;
+    shop.beginWaiting();
     opera = s.indexOf('opera') + 1;
+    shop.endWaiting();
     msie = false;
+    shop.beginWaiting();
     if (!opera) {
         msie = s.indexOf('msie') + 1;
         wii = false;
