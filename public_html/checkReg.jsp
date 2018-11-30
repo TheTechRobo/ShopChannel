@@ -5,6 +5,19 @@
 <title>PLEASE WAIT</title>
 	<script type="text/javascript" src="js/wiicore.js"></script>
 	<script type="text/javascript">
+    function init()
+    {
+
+    var s = navigator.userAgent.toLowerCase();
+    wii = s.indexOf('wii shop channel') + 1;
+    opera = s.indexOf('opera') + 1;
+    msie = false;
+    if (!opera) {
+    msie = s.indexOf('msie') + 1;
+    wii = false;
+    }
+    useSyncRegistration = ("getVersion" in ec && "syncRegistration" in ec);
+    }
         function initPageCommon() {
             init();
             var isShoppingManualEnabled = "true";
