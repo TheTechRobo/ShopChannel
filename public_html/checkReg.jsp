@@ -6,6 +6,7 @@
 	<script type="text/javascript" src="js/wiicore.js"></script>
 	<script type="text/javascript">
         function initPageCommon() {
+            init();
             var isShoppingManualEnabled = "true";
             shop.beginWaiting();
             document.getElementById('debug').value = 1;
