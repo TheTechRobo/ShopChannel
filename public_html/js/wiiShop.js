@@ -52,10 +52,8 @@ function init()
 
 function finishOp(opName, opDesc, progress, doneFunc)
 {
-    trace("Doing op " + opName);
-
-            showProgress(true, opName, opDesc, doneFunc);
-        eval(doneFunc+"(progress)");
+    showProgress(true, opName, opDesc, doneFunc);
+    eval(doneFunc+"(progress)");
     }
 
 function showProgress(flag)

@@ -11,11 +11,7 @@
             if (ecSupportsSession()) {
                 isShoppingManualEnabled = wiiEC.getSessionValue("isShopManEnabled");
             }
-            var ecsUrl = null;
-            var iasUrl = null;
-            var ccsUrl = null;
-            var ucsUrl = null;
-	    var testMode = 'false';
+
 			// There seems to be an issue with the JS running here.
             init();
 
