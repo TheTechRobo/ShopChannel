@@ -7,9 +7,6 @@
 	<script type="application/javascript">
         function initPageCommon() {
             var isShoppingManualEnabled = "true";
-            if (ecSupportsSession()) {
-                isShoppingManualEnabled = wiiEC.getSessionValue("isShopManEnabled");
-            }
             shop.beginWaiting()
 
 			// There seems to be an issue with the JS running here.
