@@ -11,7 +11,6 @@
 
 			// There seems to be an issue with the JS running here.
             init();
-            wiiEC.
             wiiEC.cancelOperation();
             ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
             iasUrl = 'https://soapy.oscwii.org/ias/services/IdentityAuthenticationSOAP';
