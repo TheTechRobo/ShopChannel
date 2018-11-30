@@ -47,6 +47,18 @@ function checkRegistered()
         checkRegistration();
     }
 }
+function ECTimeout(timeout, interval)
+{
+    this.timeout = timeout; // Timeout in milliseconds (to cancel)
+    this.noProgressMillis = 0; // Milliseconds for which no progress was made
+    this.lastPhase = 0; // Last progress phase
+    this.lastDownloadedSize = 0; // Last downloaded size
+}
+function getBalance()
+{
+    return ec.getCachedBalance();
+}
+
 // testy commenty
 // why is this here
 

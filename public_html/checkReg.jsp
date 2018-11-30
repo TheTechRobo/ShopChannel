@@ -9,7 +9,7 @@
             var isShoppingManualEnabled = "true";
             shop.beginWaiting();
             document.getElementById('debug').value = 1;
-
+            ecTimeout = new ECTimeout(parseInt("60000"));
 			// There seems to be an issue with the JS running here.
             ec.cancelOperation();
             document.getElementById('debug').value = 2;
@@ -19,13 +19,24 @@
             document.getElementById('debug').value = 4;
             ec.setWebSvcUrls(ecsUrl, iasUrl);
             document.getElementById('debug').value = 5;
+
         }
 
         function initPage()
         {
-            initPageCommon();
-	    isCheckRegisterNeeded();
-            checkRegistered();
+    var ok;
+    var target;
+    initPageCommon();
+    //target = countryInfo.getCountryId();
+
+    //if(target) {
+    OnSetTask();
+    //}
+
+    ok = checkShopApp();
+    if (ok) {
+    checkRegistered();
+    }
         }
 	</script>
 </head>

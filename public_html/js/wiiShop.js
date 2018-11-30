@@ -65,3 +65,8 @@ function showProgress(flag)
 {
     document.getElementById("debug").innerHTML = flag;
 }
+function checkShopApp()
+{
+    var ok = true;
+    return ok;
+}
