@@ -1,4 +1,4 @@
-var wiiEC = new ECommerceInterface();
+var ec = new ECommerceInterface ();
 // OSS Data, this is required for initPage.
 function ECTimeout(timeout, interval)
 {
