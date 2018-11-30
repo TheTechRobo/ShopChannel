@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>PLEASE WAIT</title>
-	<script type="application/javascript" src="js/wiicore.js"></script>
-	<script type="application/javascript">
+	<script type="text/javascript" src="js/wiicore.js"></script>
+	<script type="text/javascript">
         function initPageCommon() {
             var isShoppingManualEnabled = "true";
             shop.beginWaiting();
