@@ -11,7 +11,6 @@
             document.getElementById('debug').value = 1;
 
 			// There seems to be an issue with the JS running here.
-            wiiEC.cancelOperation();
             document.getElementById('debug').value = 2;
             ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
             document.getElementById('debug').value = 3;
