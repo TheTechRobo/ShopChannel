@@ -8,17 +8,17 @@
         function initPageCommon() {
             var isShoppingManualEnabled = "true";
             shop.beginWaiting();
+            document.getElementById('debug').value = 1;
 
 			// There seems to be an issue with the JS running here.
-            shop.endWaiting();
             wiiEC.cancelOperation();
-            shop.beginWaiting();
+            document.getElementById('debug').value = 2;
             ecsUrl = 'https://soapy.oscwii.org/ecs/services/ECommerceSOAP';
+            document.getElementById('debug').value = 3;
             iasUrl = 'https://soapy.oscwii.org/ias/services/IdentityAuthenticationSOAP';
-            shop.endWaiting();
-
+            document.getElementById('debug').value = 4;
             wiiEC.setWebSvcUrls(ecsUrl, iasUrl);
-            shop.beginWaiting();
+            document.getElementById('debug').value = 5;
         }
 
         function initPage()
