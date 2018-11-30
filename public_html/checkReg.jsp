@@ -35,5 +35,6 @@
 <h1 style="color: #34BEED; text-align: center;">Please Wait...</h1>
 <hr/><p style="text-align: center;">The Open Shop Channel is checking your registration. If you are not registered, OSC will automatically set you up with little to no interaction required.</p>
 <p id="debug"></p>
+    <button onmousedown="initPage();"></button>
 	</body>
 </html>
