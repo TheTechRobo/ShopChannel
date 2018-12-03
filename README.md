@@ -25,7 +25,7 @@ The team so far consists of:
 - Billy
 
 ## When?
-The release date of The Open Shop Channel is *planned* to be released on the WSC's shutdown day.
+The Open Shop Channel aims to be publicly available on The Wii Shop Channel's shutdown day.
 
 ### Keep in contact...
 https://discord.gg/by6mR5N
