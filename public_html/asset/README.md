@@ -6,7 +6,7 @@ All Assets provided in this direcory are custom made for the project. To use the
 
 ## Asset Copyright
 Open Shop Channel for the Nintendo Wii
-Copyright (C) 2018  Open Shop Channel Team.
+Copyright (C) 2019  Open Shop Channel Team.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
