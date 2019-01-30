@@ -21,7 +21,7 @@
     </tr>
     <tr>
         <td width="215" valign="top">
-            <p>Item #1</p>
+            <p><span class="highlighted"> NEW </span>Item #1</p>
         </td>
     </tr>
     <tr>
