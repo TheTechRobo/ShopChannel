@@ -52,5 +52,5 @@
 
 <p>
     <p class="heading"><img alt="Explore Button" id="explore" dir="ltr" height="100" src="asset/button/exploreA.png" width="200" onmousedown="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'explore.php');"></p>
-    <img src="asset/logo/LogoText.png" align="middle" width="242" height="100.5">
+    <p class="heading"><img src="asset/logo/LogoText.png" width="242" height="100.5"></p>
 </p>
