@@ -1,9 +1,10 @@
-﻿/* This is supposed to make sure the page content stays within a certain resolution. */
-body {
+﻿/* This is supposed to make sure the page content stays within a certain resolution.
+	Actually makes things go off of page*/
+/*body {
 	width: 608px; height: 456px;
 	background-repeat: no-repeat;
-	background-color: #FFFFFF; 
-}
+	background-color: #FFFFFF;
+} */
 /*Default should be used for paragraphs. It's also black, if you wanted to know.*/
 .default {
 	font-size: 16px;
