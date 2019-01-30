@@ -17,8 +17,8 @@
 <button onmousedown="shop.rebootSystem()">reboot wii</button>
 <hr size="1" noshade>
 <p><b>change background (does not apply to 4:3):</b></p>
-<button onmousedown="shop.setWallpaper(0)">dots</button>
-<button onmousedown="shop.setWallpaper(1)">black</button>
+<button onmousedown="shop.setWallpaper(0)">dots (default)</button>
+<button onmousedown="shop.setWallpaper(1)">black (health safety)</button>
 <button onmousedown="shop.setWallpaper(2)">white</button>
 <button onmousedown="shop.setWallpaper(3)">blue vertical lines (operations manual)</button>
 <hr size="1" noshade>
