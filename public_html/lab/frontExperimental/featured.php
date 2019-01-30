@@ -39,11 +39,18 @@
             <p>Item #4</p>
         </td>
     </tr>
+    <tr>
+        <td width="215" valign="top">
+            <p>Item #5</p>
+        </td>
+    </tr>
     </tbody>
 </table>
 <p>
     <p class="heading">Open Shop Channel</p>
 </p>
+
 <p>
     <p class="heading"><img alt="Explore Button" id="explore" dir="ltr" height="100" src="asset/button/exploreA.png" width="200" onmousedown="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'explore.php');"></p>
+    <img src="asset/logo/LogoText.png" align="middle">
 </p>
