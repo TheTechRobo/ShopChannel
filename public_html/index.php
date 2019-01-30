@@ -13,6 +13,7 @@
 			<p><a href="download/prodinfo.php">Product Page</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
             <p><a href="/error/list.php">Error List</a></p>
+            <p><a href="/lab/frontExperimental/featured.php">Experimental Frontend</a></p>
 			<p><a href="debug.php">debugmii</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
 			<p><a href="checkReg.jsp">Check Registration?!</a></p>
