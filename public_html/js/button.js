@@ -38,6 +38,5 @@ function FP_getObjectByID(id,o) {//v1.0
 
 /*Goes to a URL specified. Pretty useful.*/
 function FP_goToURL(url) {//v1.0
- sound.playSE(3);
  window.location=url;
 }
