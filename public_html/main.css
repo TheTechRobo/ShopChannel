@@ -1,10 +1,16 @@
-﻿/* This is supposed to make sure the page content stays within a certain resolution.
+/* This is supposed to make sure the page content stays within a certain resolution.
 	Actually makes things go off of page*/
 /*body {
 	width: 608px; height: 456px;
 	background-repeat: no-repeat;
-	background-color: #FFFFFF; 
+	background-color: #FFFFFF;
 } */
+
+/*I made this graphic in under 3 minutes ☺*/
+body {
+	background: url("asset/bg/table_top.png") no-repeat;
+}
+
 /*Default should be used for paragraphs. It's also black, if you wanted to know.*/
 .default {
 	font-size: 16px;
@@ -24,6 +30,7 @@
 	text-transform: none;
 	color: #FFFFFF;
 	background-color: #34BEED;
+	margin-left: 5px;
 }
 
 /*Commonly associated with the words at the top of the page. It's black too.*/
@@ -35,19 +42,43 @@
 	font-variant: normal;
 	text-transform: none;
 	color: #000000;
-	text-align:center
+	text-align:center;
 }
 .table {
-	border-width: 2px;
-	border-color: #34BEED;
+	border-width: 1px;
+	border-color: rgb(52, 190, 237);
 	table-layout: auto;
 	empty-cells: show;
 	border-top-style: 2;
 	border-right-style: 2;
 	border-bottom-style: 2;
 	border-left-style: 2;
-	border-style: solid;
-	border-width: 1px;
+	border-style: solid transparent;
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+.tableText {
+	position: absolute;
+	top: -8px;
+	left: 70px;
+	color: rgb(255, 255, 255);
+	width: auto;
+	height: auto;
+}
+.tableItem {
+	margin-left: 5px;
+	top: 0px;
+	bottom: 0px;
+}
+.tableTitle {
+	position: absolute;
+	color: white;
+	width: auto;
+	height: auto;
+	top: 15px;
+	left: 63.5px;
 }
 
 /* Warning (or "Red") text.*/
@@ -58,4 +89,12 @@
 	font-variant: normal;
 	text-transform: none;
 	color: red;
+}
+
+/*The gray dotted line we all know and love*/
+.dots {
+	position: absolute;
+	color: rgb(195, 195, 195);
+	left: 250px;
+	top: 50px;
 }

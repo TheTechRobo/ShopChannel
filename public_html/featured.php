@@ -10,46 +10,47 @@
     </script>
 </head>
 <body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png'); initPage();">
-<table border="1" cellspacing="0" cellpadding="0" align="left" class="table">
+
+<h2 class="dots">• • • • • • • • • • • • • • • • • •</h2>
+
+<p class="tableTitle">
+                <strong>New Additions</strong>
+</p>
+
+<table border="1" cellspacing="0" cellpadding="0" align="left" class="table";">
     <tbody>
     <tr>
-        <td width="215" valign="top">
-            <p align="center">
-                <strong>New Additions</strong>
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td width="215" valign="top">
+        <td width="219" valign="top">
             <p><span class="highlighted">NEW</span> Item #1</p>
         </td>
     </tr>
     <tr>
-        <td width="215" valign="top">
-            <p>Item #2</p>
+        <td width="219" valign="top">
+            <p class="tableItem">Item #2</p>
         </td>
     </tr>
     <tr>
-        <td width="215" valign="top">
-            <p>Item #3</p>
+        <td width="219" valign="top">
+            <p class="tableItem">Item #3</p>
         </td>
     </tr>
     <tr>
-        <td width="215" valign="top">
-            <p>Item #4</p>
+        <td width="219" valign="top">
+            <p class="tableItem">Item #4</p>
         </td>
     </tr>
     <tr>
-        <td width="215" valign="top">
-            <p>Item #5</p>
+        <td width="219" valign="top">
+			<div class="cheapFix">
+				<p class="tableItem">Item #5</p>
+			</div>
         </td>
-    </tr>
+    </tr
     </tbody>
 </table>
 <p>
 <p class="heading">Open Shop Channel</p>
 </p>
-
 <p>
 <p class="heading"><img alt="Explore Button" id="explore" dir="ltr" height="100" src="asset/button/exploreA.png" width="200" onmousedown="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'explore.php');"></p>
 <p class="heading"><img src="asset/logo/LogoText.png" width="242" height="100.5"></p>
