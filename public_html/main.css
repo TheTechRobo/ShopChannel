@@ -7,9 +7,10 @@
 } */
 
 /*I made this graphic in under 3 minutes ☺*/
-body {
+/*Oh shoot it affects every page*/
+/*body {
 	background: url("asset/bg/table_top.png") no-repeat;
-}
+}*/
 
 /*Default should be used for paragraphs. It's also black, if you wanted to know.*/
 .default {
