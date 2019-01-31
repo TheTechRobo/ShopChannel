@@ -24,7 +24,6 @@
 	text-transform: none;
 	color: #FFFFFF;
 	background-color: #34BEED;
-	margin-left: 5px;
 }
 
 /*Commonly associated with the words at the top of the page. It's black too.*/
@@ -47,26 +46,8 @@
 	border-right-style: 2;
 	border-bottom-style: 2;
 	border-left-style: 2;
-	border-style: solid transparent;
+	border-style: solid;
 	border-width: 1px;
-	background: url("asset/bg/table.png"); /*I made this graphic in 5 minutes ☺*/
-}
-.tableText {
-	position: absolute;
-	top: -8px;
-	left: 70px;
-	color: rgb(255, 255, 255);
-}
-.tableItem {
-	margin-left: 5px;
-	top: 0px;
-	bottom: 0px;
-}
-
-/*Prevents the graphics from getting messed up when a browser handles tables differently*/
-.cheapFix {
-	background: url("asset/bg/cheap_fix.png");
-	height: 42px;
 }
 
 /* Warning (or "Red") text.*/
@@ -77,12 +58,4 @@
 	font-variant: normal;
 	text-transform: none;
 	color: red;
-}
-
-/*The gray dotted line we all know and love*/
-.dots {
-	position: absolute;
-	color: rgb(195, 195, 195);
-	left: 250px;
-	top: -17px;
 }

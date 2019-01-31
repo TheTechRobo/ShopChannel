@@ -10,39 +10,40 @@
     </script>
 </head>
 <body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png'); initPage();">
-
-<h2 class="dots">• • • • • • • • • • • • • • • • • • • • • • • • • •</h2>
-
-<table border="0" cellspacing="0" cellpadding="0" align="left" class="table";">
+<table border="1" cellspacing="0" cellpadding="0" align="left" class="table">
     <tbody>
     <tr>
-        <td width="219" valign="top">
-			<div style="height: 20px;"></div>
+        <td width="215" valign="top">
+            <p align="center">
+                <strong>New Additions</strong>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="215" valign="top">
             <p><span class="highlighted">NEW</span> Item #1</p>
         </td>
     </tr>
     <tr>
-        <td width="219" valign="top">
-            <p class="tableItem">Item #2</p>
+        <td width="215" valign="top">
+            <p>Item #2</p>
         </td>
     </tr>
     <tr>
-        <td width="219" valign="top">
-            <p class="tableItem">Item #3</p>
+        <td width="215" valign="top">
+            <p>Item #3</p>
         </td>
     </tr>
     <tr>
-        <td width="219" valign="top">
-            <p class="tableItem">Item #4</p>
+        <td width="215" valign="top">
+            <p>Item #4</p>
         </td>
     </tr>
     <tr>
-        <td width="219" valign="top">
-			<div class="cheapFix">
-				<p class="tableItem">Item #5</p>
-			</div>
+        <td width="215" valign="top">
+            <p>Item #5</p>
         </td>
-    </tr
+    </tr>
     </tbody>
 </table>
 <p>
