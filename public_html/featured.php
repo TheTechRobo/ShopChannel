@@ -10,17 +10,6 @@
     </script>
 </head>
 <body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png'); initPage();">
-<table border="1" cellspacing="0" cellpadding="0" align="left" class="table">
-    <tbody>
-    <tr>
-        <td width="215" valign="top">
-            <p align="center">
-                <strong>New Additions</strong>
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td width="215" valign="top">
             <p><span class="highlighted">NEW</span> Item #1</p>
         </td>
     </tr>
