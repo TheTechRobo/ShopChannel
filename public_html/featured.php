@@ -11,13 +11,16 @@
 </head>
 <body onload="FP_preloadImgs(/*url*/'asset/button/exploreA.png',/*url*/'asset/button/exploreB.png',/*url*/'asset/button/exploreC.png'); initPage();">
 
-<h2 class="dots">• • • • • • • • • • • • • • • • • • • • • • • • • •</h2>
+<h2 class="dots">• • • • • • • • • • • • • • • • • •</h2>
 
-<table border="0" cellspacing="0" cellpadding="0" align="left" class="table";">
+<p class="tableTitle">
+                <strong>New Additions</strong>
+</p>
+
+<table border="1" cellspacing="0" cellpadding="0" align="left" class="table";">
     <tbody>
     <tr>
         <td width="219" valign="top">
-			<div style="height: 20px;"></div>
             <p><span class="highlighted">NEW</span> Item #1</p>
         </td>
     </tr>
