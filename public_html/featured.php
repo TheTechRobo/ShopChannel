@@ -3,7 +3,7 @@
 <head>
     <link href="main.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="js/button.js"></script>
-    <script type="text/javascript" src="js/wiicore.js"></script>
+    <script type="application/javascript" src="js/wiicore.js"></script>
     <script type="text/JavaScript">
         shop.setWallpaper(3);
         sound.playBGM();
