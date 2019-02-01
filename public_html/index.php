@@ -57,6 +57,7 @@
 <p class="heading"><img src="asset/logo/LogoText.png" width="242" height="100.5"></p>
 <p><a href="toolbox.php">i wanna be debugging</a></p>
 </p>
+<p id="test" style="display: none;"></p>
 <script>
     document.getElementById('test').innerHTML = new wiiShop().connecting
 </script>
