@@ -19,7 +19,7 @@
 			<p><a href="checkReg.jsp">Check Registration?!</a></p>
 			<p id="test" style="display: none;"></p>
         <p>Open Shop Channel for the Nintendo Wii
-            Copyright (C) 2018  Open Shop Channel Team</p>
+            Copyright (C) 2018-2019 Open Shop Channel Team</p>
 			<script>
 			    document.getElementById('test').innerHTML = new wiiShop().connecting
 			</script>
