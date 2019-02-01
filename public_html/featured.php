@@ -5,7 +5,7 @@
     <script type="text/javascript" src="js/button.js"></script>
     <script type="text/javascript" src="js/wiicore.js"></script>
     <script type="text/JavaScript">
-        shop.setWallpaper(3)
+        shop.setWallpaper(3);
         sound.playBGM();
     </script>
 </head>
