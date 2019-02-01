@@ -24,8 +24,5 @@ The team so far consists of:
 - CornierKhan1
 - Billy
 
-## When?
-The Open Shop Channel aims to be publicly available on The Wii Shop Channel's shutdown day.
-
 ### Keep in contact...
 https://discord.gg/by6mR5N
