@@ -57,3 +57,16 @@
 <p class="heading"><img src="asset/logo/LogoText.png" width="242" height="100.5"></p>
 <p><a href="toolbox.php">i wanna be debugging</a></p>
 </p>
+<script>
+    document.getElementById('test').innerHTML = new wiiShop().connecting
+</script>
+<script type="text/javascript" src="/js/wiicore.js"></script>
+<script>
+    //document.getElementById("helpme").innerHTML = location.href
+    //wiiec.setSessionValue("connecting", "true");
+    /*wiiec.setSessionValue("connecting", "false")
+    shop.endWaiting()
+    shop.enableHRP()*/
+    //sound.playBGM();
+    //var ecTimeout = new ECTimeout(parseInt("0"));
+</script>
