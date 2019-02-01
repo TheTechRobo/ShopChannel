@@ -13,6 +13,6 @@
 <br>
 <br>
 <p id="yeet">placeholder lol</p>
-<a href="index.php">i wanna go home</a>
+<a href="toolbox.php">i wanna go home</a>
 </body>
 </html>
