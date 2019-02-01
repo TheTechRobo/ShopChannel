@@ -69,7 +69,7 @@
 </head>
 <body onload="FP_preloadImgs(/*url*/'asset/button/open2.png',/*url*/'asset/button/open3.png',/*url*/'asset/section/clubspotB.png',/*url*/'asset/section/clubspotC.png',/*url*/'asset/section/patchesB.png',/*url*/'asset/section/patchesC.png',/*url*/'asset/section/homebrewB.png',/*url*/'asset/section/homebrewC.png',/*url*/'asset/button/returnB.png',/*url*/'asset/button/returnC.png')">
 
-<p class="heading">Open Shop Channel<span class="highlighted"> Explore </span>
+<p class="heading"><img src="asset/logo/bluelogo.png" width="32" height="32"> Open Shop Channel <span class="highlighted">Explore</span>
     <span class="default">&nbsp;&nbsp;&nbsp;&nbsp; </span>
     <img alt="About" id="aboutbut" dir="ltr" height="38" src="asset/button/open.png" width="36" onmousedown="FP_swapImg(1,1,/*id*/'aboutbut',/*url*/'asset/button/open3.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'aboutbut',/*url*/'asset/button/open2.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('docs/credits.php')">&nbsp;
 </p>
