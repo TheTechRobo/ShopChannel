@@ -14,7 +14,7 @@
 <h2 class="dots">• • • • • • • • • • • • • • • • • •</h2>
 
 <p class="tableTitle">
-                <strong>New Additions</strong>
+                <strong>Featured</strong>
 </p>
 
 <table border="1" cellspacing="0" cellpadding="0" align="left" class="table";">
