@@ -16,7 +16,6 @@
 			<p><a href="debug.php">debugmii</a></p>
 			<p><button onmousedown="sound.playBGM()">play thy bgm</button></p>
 			<p><a href="checkReg.jsp">Check Registration?!</a></p>
-            <p><a onclick="toSite()">Google Search</a></p>
 			<p id="test" style="display: none;"></p>
         <p>Open Shop Channel for the Nintendo Wii
             Copyright (C) 2018-2019 Open Shop Channel Team</p>
@@ -32,9 +31,6 @@
 				shop.enableHRP()*/
 				//sound.playBGM();
 				//var ecTimeout = new ECTimeout(parseInt("0"));
-                function toSite() {
-                    location.replace("http://example.com/")
-                }
 			</script>
 		</BODY>
 </HTML>
