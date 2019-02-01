@@ -8,7 +8,6 @@
 		We'll be changing more soon.
 			<p>hai twitch</p>
 			<p><a href="index.php">Featured</a></p>
-			<p><a href="newexplore.php">New Explore</a></p>
 			<p><a href="explore.php">Explore</a></p>
 			<p><a href="download/prodinfo.php">Product Page</a></p>
 			<p><a href="/clubspot/index.php">Club Spot index</a></p>
