@@ -64,6 +64,7 @@
         function FP_goToURL(url) {//v1.0
             window.location=url;
         }
+        shop.setWallpaper(2);
         // -->
     </script>
 </head>
