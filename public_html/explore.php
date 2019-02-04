@@ -22,7 +22,6 @@
             color: #FFFFFF;
             background-color: #34BEED;
         }
-
         .default {
             font-size: 16px;
             font-weight: 200;
@@ -31,6 +30,10 @@
             text-transform: none;
             color: #000000;
         }
+		.imgShadow {
+			position: absolute;
+			top: 109.5px;
+		}
     </style>
     <script type="text/javascript">
         <!--
@@ -39,12 +42,10 @@
                                                                                   n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
                 elm.$src=elm.src; elm.src=args[n+1]; } }
         }
-
         function FP_preloadImgs() {//v1.0
             var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
             for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
         }
-
         function FP_getObjectByID(id,o) {//v1.0
             var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
             else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
@@ -54,13 +55,11 @@
                 for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
             return null;
         }
-
         function FP_swapImgRestore() {//v1.0
             var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
                 var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } }
                 doc.$imgSwaps=null; }
         }
-
         function FP_goToURL(url) {//v1.0
             window.location=url;
         }
@@ -77,6 +76,10 @@
 <!--For the sake of order, stylize Buttons with the heading class in main.css.-->
 <p class="heading">
     <!--Sections-->
+	<img src="asset/section/sectionShadow.png" class="imgShadow" style="left: 139.5px;">
+	<img src="asset/section/sectionShadow.png" class="imgShadow" style="left: 250px;">
+	<img src="asset/section/sectionShadow.png" class="imgShadow" style="left: 361px;">
+	
     <img alt="Club Spot" id="clubspotbut" dir="ltr" height="100" src="asset/section/clubspotA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'asset/section/clubspotC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'asset/section/clubspotB.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('clubspot/index.php')">
     <img alt="Patches" id="patchesbut" dir="ltr" height="100" src="asset/section/patchesA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'asset/section/patchesC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'asset/section/patchesB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('patches/list.php');">
     <img alt="Homebrew" id="homebrewbut" dir="ltr" height="100" src="asset/section/homebrewA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'asset/section/homebrewC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'asset/section/homebrewB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'homebrew/list.php');">
