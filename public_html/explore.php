@@ -22,7 +22,6 @@
             color: #FFFFFF;
             background-color: #34BEED;
         }
-
         .default {
             font-size: 16px;
             font-weight: 200;
@@ -47,12 +46,10 @@
                                                                                   n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
                 elm.$src=elm.src; elm.src=args[n+1]; } }
         }
-
         function FP_preloadImgs() {//v1.0
             var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
             for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
         }
-
         function FP_getObjectByID(id,o) {//v1.0
             var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
             else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
@@ -62,13 +59,11 @@
                 for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
             return null;
         }
-
         function FP_swapImgRestore() {//v1.0
             var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
                 var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } }
                 doc.$imgSwaps=null; }
         }
-
         function FP_goToURL(url) {//v1.0
             window.location=url;
         }
