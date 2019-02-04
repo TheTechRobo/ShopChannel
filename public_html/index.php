@@ -14,7 +14,7 @@
 <h2 class="dots">• • • • • • • • • • • • • • • • • •</h2>
 
 <p class="tableTitle">
-                <strong>New Additions</strong>
+                <strong>Featured</strong>
 </p>
 
 <table border="1" cellspacing="0" cellpadding="0" align="left" class="table";">
@@ -56,6 +56,7 @@
 <p class="heading"><img alt="Explore Button" id="explore" dir="ltr" height="100" src="asset/button/exploreA.png" width="200" onmousedown="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'explore',/*url*/'asset/button/exploreB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'explore.php');"></p>
 <p class="heading"><img src="asset/logo/LogoText.png" width="242" height="100.5"></p>
 <p><a href="toolbox.php">i wanna be debugging</a></p>
+<p align="right">Copyright (C) 2018-2019 Open Shop Channel Team</p>
 </p>
 <p id="test" style="display: none;"></p>
 <script>
