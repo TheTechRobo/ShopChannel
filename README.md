@@ -23,11 +23,11 @@ We are a group of homebrew enthusiasts that want to provide the easiest way to g
 The team so far consists of:
 - [darky](https://github.com/DarkPhoenix10)
 - [dhtdht020](https://github.com/dhtdht020)
-- KcrPL
+- [KcrPL](https://github.com/KcrPL)
 - [Spotlight](https://github.com/spotlightishere)
-- Larsenv
-- CornierKhan1
-- Billy
+- [Larsenv](https://github.com/larsenv)
+- [CornierKhan1](https://github.com/caution3)
+- [Billy](https://github.com/InternalLoss)
 
 ### Keep in contact...
 https://discord.gg/by6mR5N
