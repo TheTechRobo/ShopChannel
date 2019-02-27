@@ -95,7 +95,90 @@
 /*The gray dotted line we all know and love*/
 .dots {
 	position: absolute;
-	color: rgb(195, 195, 195);
+	color: rgb(142, 148, 168);
 	left: 270px;
 	top: 50px;
+}
+.textOpenShop {
+	height: 38;
+	width: 332;
+	background: url("asset/common/tl.png") no-repeat top left;
+	background-color: rgb(255, 255, 255);
+	margin-top: -20px;
+}
+.textOpenShop:hover {
+	height: 38;
+	width: 332;
+	background: url("asset/common/tl.png") no-repeat top left;
+	background-color: rgb(196, 241, 252);
+}
+.textOpenShopH {
+	position: abosulute;
+	color: rgb(0, 0, 0);
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.textOpenShop div {
+	background: url("asset/common/tr.png") no-repeat top right;
+}
+.textOpenShop div div {
+	background: url("asset/common/bl.png") no-repeat bottom left;
+}
+.textOpenShop div div div {
+	background: url("asset/common/br.png") no-repeat bottom right;
+	height: 38;
+}
+.textPlatform {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	left: 10px;
+	top: 65px;
+}
+.textNormal {
+	position: absolute;
+	color: black;
+	top: 150px;
+	left: 185px;
+}
+.textTitle {
+	position: absolute;
+	color: rgb(52, 190, 237);
+	font-weight: bold;
+	left: 200px;
+	top: 235px;
+}
+.buttonDownload {
+	position: absolute;
+	width: 263;
+	height: 81;
+	top: 285px;
+	left: 130px;
+	background: url("asset/button/download2A.png");
+}
+.buttonDownload:hover {
+	background: url("asset/button/download2B.png");
+}
+.textWhite {
+	position: absolute;
+	color: White;
+	top: 290px;
+	left: 207px;
+}
+.imageScreenshot {
+	position: absolute;
+	width: 162;
+	height: 122;
+	left: 16px;
+	top: 111px;
+}
+.infoBG {
+	position: absolute;
+	top: 80px;
+}
+.returnButton {
+	position: absolute;
+	top: 380px;
+	width: 202px;
+	height: 63px;
 }
