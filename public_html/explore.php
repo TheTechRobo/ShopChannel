@@ -38,6 +38,46 @@
 			background: url("asset/section/sectionShadowV2.png");
 			z-index: -100;
 		}
+		/*Information that appears on hover (for explore.php*/
+		.divHoverInfo {
+			position: absolute;
+			background-color: rgb(52, 190, 237);
+			width: 430px;
+			height: 30px;
+			color: #FFFFFF;
+			left: 87px;
+			right: 50%;
+			top: 217px;
+			visibility: hidden;
+		}
+		.txtHoverInfoPatch {
+			position: absolute;
+			left: 55px;
+			top: -10px;
+		}
+		.txtHoverInfoHomebrew {
+			position: absolute;
+			left: 50px;
+			top: -10px;
+		}
+		.txtHoverInfoClubSpot {
+			position: absolute;
+			left: 38px;
+			top: -10px;
+		}
+		.bl {
+			position: absolute;
+			top: 23px;
+		}
+		.br {
+			position: absolute;
+			top: 23px;
+			left: 423px;
+		}
+		.tr {
+			position: absolute;
+			left: 423px;
+		}
     </style>
     <script type="text/javascript">
         <!--
@@ -77,6 +117,7 @@
     <span class="default">&nbsp;&nbsp;&nbsp;&nbsp; </span>
     <img alt="About" id="aboutbut" dir="ltr" height="38" src="asset/button/open.png" width="36" onmousedown="FP_swapImg(1,1,/*id*/'aboutbut',/*url*/'asset/button/open3.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'aboutbut',/*url*/'asset/button/open2.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('docs/credits.php')">&nbsp;
 </p>
+
 <!--For the sake of order, stylize Buttons with the heading class in main.css.-->
 <div class="imgShadow" style="left: 139.5px;"></div>
 <div class="imgShadow" style="left: 250px;"></div>
@@ -84,12 +125,36 @@
 	
 <p class="heading">
     <!--Sections-->	
-    <img alt="Club Spot" id="clubspotbut" dir="ltr" height="100" src="asset/section/clubspotA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'asset/section/clubspotC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'asset/section/clubspotB.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('clubspot/index.php')">
-    <img alt="Patches" id="patchesbut" dir="ltr" height="100" src="asset/section/patchesA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'asset/section/patchesC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'asset/section/patchesB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('patches/list.php');">
-    <img alt="Homebrew" id="homebrewbut" dir="ltr" height="100" src="asset/section/homebrewA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'asset/section/homebrewC.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'asset/section/homebrewB.png');" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'homebrew/list.php');">
+    <img alt="Club Spot" id="clubspotbut" dir="ltr" height="100" src="asset/section/clubspotA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'asset/section/clubspotC.png')" onmouseout="FP_swapImgRestore(); document.getElementById('HoverClubSpot').style.visibility='hidden';" onmouseover="FP_swapImg(1,1,/*id*/'clubspotbut',/*url*/'asset/section/clubspotB.png'); document.getElementById('HoverClubSpot').style.visibility='visible';" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('clubspot/index.php')">
+    <img alt="Patches" id="patchesbut" dir="ltr" height="100" src="asset/section/patchesA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'asset/section/patchesC.png')" onmouseout="FP_swapImgRestore(); document.getElementById('HoverPatch').style.visibility='hidden';" onmouseover="FP_swapImg(1,1,/*id*/'patchesbut',/*url*/'asset/section/patchesB.png'); document.getElementById('HoverPatch').style.visibility='visible';" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('patches/list.php');">
+    <img alt="Homebrew" id="homebrewbut" dir="ltr" height="100" src="asset/section/homebrewA.png" width="100" onmousedown="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'asset/section/homebrewC.png')" onmouseout="FP_swapImgRestore(); document.getElementById('HoverHomebrew').style.visibility='hidden';" onmouseover="FP_swapImg(1,1,/*id*/'homebrewbut',/*url*/'asset/section/homebrewB.png'); document.getElementById('HoverHomebrew').style.visibility='visible';" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'homebrew/list.php');">
     </img></p>
 <p class="heading">
     <img alt="Return Button" id="returnbut" dir="ltr" height="69" src="asset/button/return1A.png" width="319" onmousedown="FP_swapImg(1,1,/*id*/'returnbut',/*url*/'asset/button/return1C.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'returnbut',/*url*/'asset/button/return1B.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL(/*href*/'index.php')">
 </p>
+
+<!--Information that appears on hover-->
+<div class="divHoverInfo" id="HoverPatch">
+	<img src="asset/common/bl.png" class="bl">
+	<img src="asset/common/br.png" class="br">
+	<img src="asset/common/tr.png" class="tr">
+	<img src="asset/common/tl.png" style="position: absolute;">
+	<p class="txtHoverInfoPatch">Download patches for modding your Wii.</p>
+</div>
+<div class="divHoverInfo" id="HoverHomebrew">
+	<img src="asset/common/bl.png" class="bl">
+	<img src="asset/common/br.png" class="br">
+	<img src="asset/common/tr.png" class="tr">
+	<img src="asset/common/tl.png" style="position: absolute;">
+	<p class="txtHoverInfoHomebrew">Games, Utilities and cool looking Demos!</p>
+</div>
+<div class="divHoverInfo" id="HoverClubSpot">
+	<img src="asset/common/bl.png" class="bl">
+	<img src="asset/common/br.png" class="br">
+	<img src="asset/common/tr.png" class="tr">
+	<img src="asset/common/tl.png" style="position: absolute;">
+	<p class="txtHoverInfoClubSpot">Support the OSC and earn exclusive rewards!</p>
+</div>
+
 </body>
 </html>
