@@ -182,3 +182,46 @@
 	width: 202px;
 	height: 63px;
 }
+.imgWarningTop {
+	margin-top: -15px;
+}
+.divWarningBottom {
+	width: 537px;
+	height: 65px;
+	background-color: red;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	
+	margin: auto;
+}
+.imgWarningBottom {
+	margin-left: -9px;
+}
+.btnWarnReturn {
+	background: url("asset/button/warnReturn.png");
+	background-color: red;
+	width: 192px;
+	height: 65px;
+	position: fixed;
+	bottom: 0;
+	left: 0px;
+	margin: 0 auto;
+}
+.btnWarnContinue {
+	background: url("asset/button/warnContinue.png");
+	background-color: red;
+	width: 386px;
+	height: 61px;
+	position: fixed;
+	bottom: 0;
+	left: 192px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+.warnHeader {
+	color: white;
+	margin-top: -40px;
+}
