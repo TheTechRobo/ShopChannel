@@ -15,7 +15,7 @@ require_once("../database.php");
         <link href="../main.css" rel="stylesheet" type="text/css" />
 		<base target="_parent">
     </head>
-    <body class="heading" style="background-image: url(../asset/bg/homebrew.png); background-repeat: repeat-y; background-position: center;">
+    <body class="heading" style="background-image: url(../asset/bg/patches.png); background-repeat: repeat-y; background-position: center;">
 	
 	<div id="title1Div" style="position: absolute;" onmouseover="document.getElementById('title1BG').src='../asset/button/titleB.png'" onmouseout="document.getElementById('title1BG').src='../asset/button/titleA.png'" onclick="window.top.location.href='../download/' + title1Folder + '/prodinfo.php';">
 		<img id="title1BG" src="../asset/button/titleA.png" style="float: left;">
