@@ -182,6 +182,8 @@
 	width: 202px;
 	height: 63px;
 }
+
+/*Patches warning page*/
 .imgWarningTop {
 	margin-top: -15px;
 }
@@ -224,4 +226,59 @@
 .warnHeader {
 	color: white;
 	margin-top: -40px;
+}
+
+/*Title list*/
+
+.titlelistTitle {
+	position: absolute;
+	top: -10px;
+	left: 30px;
+	color: black;
+}
+.titlelistFrame {
+	position: absolute;
+	left: 30px;
+	top: 100px;
+	width: 550px;
+	height: 250px;
+}
+.titlelistIcon {
+	background-image: url('download/example_title/icon.png');
+	position: absolute;
+	width: 96px;
+	height: 72px;
+	left: 17px;
+	top: 10px;
+}
+.titlelistName {
+	position: absolute;
+	font-size: 15px;
+	left: 120px;
+	top: -5px;
+}
+.titlelistCreator {
+	position: absolute;
+	font-size: 15px;
+	left: 120px;
+	top: 50px;
+}
+.titlelistNext {
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	top: 380px;
+	left: 500px;
+}
+.titlelistPrevious {
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	top: 380px;
+	left: 350px;
+}
+.titlelistPageNum {
+	position: absolute;
+	top: 380px;
+	left: 440px;
 }
