@@ -94,7 +94,7 @@ require_once("../database.php");
 		/*Set these varibles to easily change what titles are displayed on the list.
 		
 		title#Folder: The name of the folder which contains prodinfo.php, icon.png, etc
-		title#Name: The name of the title which is displayed to the user_error
+		title#Name: The name of the title which is displayed to the user
 		title#Creator: The name of the person who created the homebrew app, this is also displayed to the user*/
 			
 		/*Title 1*/
