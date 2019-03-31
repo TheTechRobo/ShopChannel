@@ -79,6 +79,7 @@
 			left: 423px;
 		}
     </style>
+    <script type="text/javascript" src="js/wiicore.js"></script>
     <script type="text/javascript">
         <!--
         function FP_swapImg() {//v1.0
