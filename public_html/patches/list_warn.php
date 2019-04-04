@@ -25,7 +25,7 @@
 		<img src="../asset/bg/warning_bottom.png" class="imgWarningBottom">
 		<div class="btnWarnReturn" id="btnWarnReturn" onmouseover="document.getElementById('btnWarnReturn').style.background='url(../asset/button/warnReturnHover.png)';" onmouseout="document.getElementById('btnWarnReturn').style.background='url(../asset/button/warnReturn.png)';" onclick="window.history.back()">
 		</div>
-		<div class="btnWarnContinue" id="btnWarnContinue" onmouseover="document.getElementById('btnWarnContinue').style.background='url(../asset/button/warnContinueHover.png)';" onmouseout="document.getElementById('btnWarnContinue').style.background='url(../asset/button/warnContinue.png)';" onclick="window.location = 'list.php'">
+		<div class="btnWarnContinue" id="btnWarnContinue" onmouseover="document.getElementById('btnWarnContinue').style.background='url(../asset/button/warnContinueHover.png)';" onmouseout="document.getElementById('btnWarnContinue').style.background='url(../asset/button/warnContinue.png)';" onclick="window.location = '../list.php?category=2'">
 		</div>
 	</div>
 </center>
