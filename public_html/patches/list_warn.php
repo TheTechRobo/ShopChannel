@@ -11,21 +11,23 @@
 
 <!--Header-->
 <center>
-	<img src="../asset/bg/warning_top.png" class="imgWarningTop">
-	<h2 class="warnHeader">Warning</h2>
+	<img src="../asset/bg/warning_top.png" class="imgWarningTop" id="fadeineffect">
+	<h2 class="warnHeader" id="fadeineffect">Warning</h2>
 
 	<!--Warning text-->
-	<p class="warning">Warning! Patches are not brick-safe and they make 
+	<p class="warning" id="fadeineffect">Warning! Patches are not brick-safe and they make 
 	permanent changes to your Wii data. Use these tools at your own risk.</p>
 	
-	<p>(More detail can be added here later)</p>
+	<p id="fadeineffect">(More detail can be added here later)</p>
 	<!--Footer & buttons-->
 	
 	<div class="divWarningBottom">
-		<img src="../asset/bg/warning_bottom.png" class="imgWarningBottom">
+		<img src="../asset/bg/warning_bottom.png" class="imgWarningBottom" id="imgWarnBottom">
 		<div class="btnWarnReturn" id="btnWarnReturn" onmouseover="document.getElementById('btnWarnReturn').style.background='url(../asset/button/warnReturnHover.png)';" onmouseout="document.getElementById('btnWarnReturn').style.background='url(../asset/button/warnReturn.png)';" onclick="window.history.back()">
+			<p id="fadeineffect" class="warnButtonText">Back</p>
 		</div>
 		<div class="btnWarnContinue" id="btnWarnContinue" onmouseover="document.getElementById('btnWarnContinue').style.background='url(../asset/button/warnContinueHover.png)';" onmouseout="document.getElementById('btnWarnContinue').style.background='url(../asset/button/warnContinue.png)';" onclick="window.location = '../list.php?category=2'">
+			<p id="fadeineffect" class="warnButtonText">Continue</p>
 		</div>
 	</div>
 </center>
@@ -34,13 +36,37 @@ permanent changes to your Wii data. Use these tools at your own risk.</p>-->
 <!--<p><button onclick="window.history.back()">bring me back home daddy</button></p>-->
 </body>
 <script>
-window.onload = ButtonDelay;
+var count = 0;
+var count2 = 0;
+window.onload = FadeIn;
 
 function ButtonDelay() {
-	setTimeout(ShowButton, 3000);
+	setTimeout(FadeInButton, 3000);
 }
 function ShowButton() {
+	document.getElementById("btnWarnContinue").style.opacity = "0";
 	document.getElementById("btnWarnContinue").style.visibility = 'visible';
+	FadeInButton();
+}
+function FadeIn() {
+	if (count < 1.1) {
+		document.getElementById("fadeineffect").style.opacity = count;
+		document.getElementById("imgWarnBottom").style.opacity = count;
+		document.getElementById("btnWarnReturn").style.opacity = count;
+		count = count + 0.1;
+		setTimeout(FadeIn, 50);
+	}
+	else {
+		ButtonDelay();
+	}
+}
+function FadeInButton() {
+	document.getElementById("btnWarnContinue").style.visibility = 'visible';
+	if (count2 < 1.1) {
+		document.getElementById("btnWarnContinue").style.opacity = count2;
+		count2 = count2 + 0.1;
+		setTimeout(FadeInButton, 50);
+	}
 }
 </script>
 </html>
