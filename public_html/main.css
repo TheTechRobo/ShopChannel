@@ -190,7 +190,6 @@
 .divWarningBottom {
 	width: 537px;
 	height: 65px;
-	background-color: red;
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -201,10 +200,10 @@
 }
 .imgWarningBottom {
 	margin-left: -9px;
+	opacity = 1;
 }
 .btnWarnReturn {
 	background: url("asset/button/warnReturn.png");
-	background-color: red;
 	width: 192px;
 	height: 65px;
 	position: fixed;
@@ -214,7 +213,6 @@
 }
 .btnWarnContinue {
 	background: url("asset/button/warnContinue.png");
-	background-color: red;
 	width: 386px;
 	height: 61px;
 	position: fixed;
@@ -222,10 +220,14 @@
 	left: 192px;
 	margin: 0 auto;
 	visibility: hidden;
+	opacity: 0;
 }
 .warnHeader {
 	color: white;
 	margin-top: -40px;
+}
+.warnButtonText {
+	margin-top: 25px;
 }
 
 /*Title list*/
