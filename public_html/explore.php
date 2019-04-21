@@ -5,6 +5,7 @@
 	<title>Explore</title>
 	<style type="text/css">
 		.heading {
+			margin-top: 0px;
 			font-size: 32px;
 			font-weight: 900;
 			font-style: normal;
@@ -31,6 +32,7 @@
 			color: #000000;
 		}
 		.imgShadow {
+			margin-top: -1px;
 			position: absolute;
 			top: 109.5px;
 			width: 108px;
@@ -40,6 +42,7 @@
 		}
 		/*Information that appears on hover (for explore.php*/
 		.divHoverInfo {
+			margin-top: -2px;
 			position: absolute;
 			background-color: rgb(52, 190, 237);
 			width: 430px;
@@ -77,6 +80,12 @@
 		.tr {
 			position: absolute;
 			left: 423px;
+		}
+		.dots {
+			position: absolute;
+			color: rgb(142, 148, 168);
+			left: 270px;
+			top: 50px;
 		}
 	</style>
 	<script type="text/javascript" src="js/wiicore.js"></script>
@@ -119,6 +128,9 @@
 	<img alt="About" id="aboutbut" dir="ltr" height="38" src="asset/button/open.png" width="36" onmousedown="FP_swapImg(1,1,/*id*/'aboutbut',/*url*/'asset/button/open3.png')" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'aboutbut',/*url*/'asset/button/open2.png')" onmouseup="FP_swapImgRestore()" class="heading" onclick="FP_goToURL('docs/credits.php')">&nbsp;
 </p>
 
+<h6 class="dots" style="margin-top: 12px; left: 5px;">• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • </h6>
+<div style="margin-bottom: 55px;"></div>
+
 <!--For the sake of order, stylize Buttons with the heading class in main.css.-->
 <div class="imgShadow" style="left: 139.5px;"></div>
 <div class="imgShadow" style="left: 250px;"></div>
@@ -156,6 +168,8 @@
 	<img src="asset/common/tl.png" style="position: absolute;">
 	<p class="txtHoverInfoClubSpot">Support the OSC and earn exclusive rewards!</p>
 </div>
+
+<h6 class="dots" style="margin-top: 316px; left: 5px;">• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • </h6>
 
 </body>
 </html>
