@@ -16,9 +16,9 @@
 <body>
 <div align="center">
     <h1>About OSC</h1>
-    <li>Backend - dhtdht020, DarkPheonix </li>
-    <li>Frontend - CornierKhan1</li>
-    <li>Dynamic Banners - Larsenv</li>
+    <li>Backend - Billy, DarkPheonix </li>
+    <li>Frontend - CornierKhan1, dhtdht020, BowzasaurusRex </li>
+    <li>Dynamic Banner - Larsenv</li>
     <li>Development Assistance - Snoot</li>
     <div></div>
     <p>Open Shop Channel for the Nintendo Wii - Copyright (C) 2019 Open Shop Channel Team.</p>
