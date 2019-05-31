@@ -15,8 +15,9 @@
 	<h2 class="warnHeader" id="fadeineffect">Warning</h2>
 
 	<!--Warning text-->
-	<p class="warning" id="fadeineffect">Warning! Patches are not brick-safe and they make 
-	permanent changes to your Wii data. Use these tools at your own risk.</p>
+	<p class="warning" id="fadeineffect">WARNING! Patches provided by the OSC can
+	brick your Wii if not handled with care. OSC nor its developers will be held
+	responsible for any damage to your console.</p>
 	
 	<p id="fadeineffect">(More detail can be added here later)</p>
 	<!--Footer & buttons-->
