@@ -16,7 +16,7 @@
 
 	<!--Warning text-->
 	<p class="warning" id="fadeineffect">WARNING! Patches provided by the OSC can
-	brick your Wii if not handled with care. OSC nor its developers will be head
+	brick your Wii if not handled with care. OSC nor its developers will be held
 	responsible for any damage to your console.</p>
 	
 	<p id="fadeineffect">(More detail can be added here later)</p>
