@@ -152,21 +152,21 @@
 	<img src="asset/common/br.png" class="br">
 	<img src="asset/common/tr.png" class="tr">
 	<img src="asset/common/tl.png" style="position: absolute;">
-	<p class="txtHoverInfoPatch">Download patches for modding your Wii.</p>
+	<p class="txtHoverInfoPatch">Download patches that change your Consoles behaviour!</p>
 </div>
 <div class="divHoverInfo" id="HoverHomebrew">
 	<img src="asset/common/bl.png" class="bl">
 	<img src="asset/common/br.png" class="br">
 	<img src="asset/common/tr.png" class="tr">
 	<img src="asset/common/tl.png" style="position: absolute;">
-	<p class="txtHoverInfoHomebrew">Games, Utilities and cool looking Demos!</p>
+	<p class="txtHoverInfoHomebrew">Explore some useful utilities and awesome games!</p>
 </div>
 <div class="divHoverInfo" id="HoverClubSpot">
 	<img src="asset/common/bl.png" class="bl">
 	<img src="asset/common/br.png" class="br">
 	<img src="asset/common/tr.png" class="tr">
 	<img src="asset/common/tl.png" style="position: absolute;">
-	<p class="txtHoverInfoClubSpot">Support the OSC and earn exclusive rewards!</p>
+	<p class="txtHoverInfoClubSpot">Support the project and reap the benefits!</p>
 </div>
 
 <h6 class="dots" style="margin-top: 316px; left: 5px;">• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • </h6>
