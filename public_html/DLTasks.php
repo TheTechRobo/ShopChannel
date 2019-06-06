@@ -7,7 +7,7 @@
     </head>
 <!--Please don't attach CSS or images to this document, we would rather have this page load rather quickly.-->
     <body>
-        <p>TASK THINGIES</p>
+        <p>Tasks!</p>
         <p><button onmousedown="addDownload(00010001-XHFP)">ADD DOWNLOAD (1)</button></p>
         <p href="index.php">GO BACK</p>
     </body>
