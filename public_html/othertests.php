@@ -8,11 +8,11 @@
     </script>
 </head>
 <body>
-<button onmousedown="document.getElementById('yeet').innerHTML = SDOk.isInserted()">sdcard is inserted?</button>
-<button onmousedown="document.getElementById('yeet').innerHTML = wiiEC">a test</button>
+<button onmousedown="document.getElementById('yeet').innerHTML = SDOk.isInserted()">SD card inserted?</button>
+<button onmousedown="document.getElementById('yeet').innerHTML = wiiEC">Another test</button>
 <br>
 <br>
-<p id="yeet">placeholder lol</p>
-<a href="toolbox.php">i wanna go home</a>
+<p id="yeet">Here's another placeholder</p>
+<a href="toolbox.php">Go back</a>
 </body>
 </html>
