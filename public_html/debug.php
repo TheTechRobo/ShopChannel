@@ -10,13 +10,13 @@
         <h2>Developer Menu</h2>
             <p><input onmousedown="keyboard.call( 0, 1, false, 'keyboard test');" value="Call a keyboard"></input> (only works under https)</p>
             <p><a href="soundtest.php">Test some sounds.</a></p>
-            <p><a href="wiiShop-test.php">test some wiiShop thingies</a></p>
-            <p><a href="othertests.php">other tests</a></p>
-            <p><a href="eval.html">eval</a></p>
+            <p><a href="wiiShop-test.php">Test WSC things.</a></p>
+            <p><a href="othertests.php">Other tests</a></p>
+            <p><a href="eval.html">Evaluation</a></p>
             <p><a href="DLTasks.php">Download Tasks</a></p>
-			<p><a href="CheckReg.jsp">CheckRegistration</a></p>
+			<p><a href="CheckReg.jsp">Check Registration</a></p>
             <br>
         <h4>If you add any new scripts to wiicore.js, please link a button here for easy testing.</h4>
-        <p><button onclick="window.history.back()">bring me back home daddy</button></p>
+        <p><button onclick="window.history.back()">Go back</button></p>
     </body>
 </html>
