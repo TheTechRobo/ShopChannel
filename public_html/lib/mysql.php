@@ -8,7 +8,6 @@ $options = [
 try {
 	$sql = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass, $options);
 } catch (\PDOException $e) {
-	// TODO: make a better error page.
 	die('An error has occured regarding MySQL. Please contact the developers for assistance.');
 }
 
