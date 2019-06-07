@@ -152,14 +152,14 @@
 	<img src="asset/common/br.png" class="br">
 	<img src="asset/common/tr.png" class="tr">
 	<img src="asset/common/tl.png" style="position: absolute;">
-	<p class="txtHoverInfoPatch">Download patches that change your Consoles behaviour!</p>
+	<p class="txtHoverInfoPatch">Download patches that modify your Consoles behaviour!</p>
 </div>
 <div class="divHoverInfo" id="HoverHomebrew">
 	<img src="asset/common/bl.png" class="bl">
 	<img src="asset/common/br.png" class="br">
 	<img src="asset/common/tr.png" class="tr">
 	<img src="asset/common/tl.png" style="position: absolute;">
-	<p class="txtHoverInfoHomebrew">Explore some useful utilities and awesome games!</p>
+	<p class="txtHoverInfoHomebrew">Explore some helpful utilities and awesome games!</p>
 </div>
 <div class="divHoverInfo" id="HoverClubSpot">
 	<img src="asset/common/bl.png" class="bl">
