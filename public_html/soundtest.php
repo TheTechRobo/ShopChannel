@@ -5,26 +5,27 @@
 	<script src="js/wiicore.js"></script>
 </head>
 <body>
-<button onmousedown="sound.playBGM()">play background music</button>
+<p>Sound test, wow!</p>
+<button onmousedown="sound.playBGM()">Play BGM</button>
 <!-- sound 1 for me seems to be nothing, according to the orignal code, sound 1 is "slide" -->
-<button onmousedown="sound.playSE(2)">focus</button>
-<button onmousedown="sound.playSE(3)">select (pressed)</button>
-<button onmousedown="sound.playSE(4)">cancel</button>
-<button onmousedown="sound.playSE(5)">keyboard: switch</button>
-<button onmousedown="sound.playSE(6)">keyboard: empty</button>
-<button onmousedown="sound.playSE(7)">dl success?</button>
-<button onmousedown="sound.playSE(8)">update success?</button>
-<button onmousedown="sound.playSE(9)">mario: jump</button>
-<button onmousedown="sound.playSE(10)">mario: jump (low)</button>
-<button onmousedown="sound.playSE(11)">mario: fireball</button>
-<button onmousedown="sound.playSE(12)">mario: coin</button>
-<button onmousedown="sound.playSE(13)">mario: brick block?</button>
-<button onmousedown="sound.playSE(14)">mario: squash</button>
-<button onmousedown="sound.playSE(15)">loading 1</button>
-<button onmousedown="sound.playSE(16)">loading 2</button>
+<button onmousedown="sound.playSE(2)">Focus</button>
+<button onmousedown="sound.playSE(3)">Press</button>
+<button onmousedown="sound.playSE(4)">Cancel</button>
+<button onmousedown="sound.playSE(5)">Keyboard activate</button>
+<button onmousedown="sound.playSE(6)">Keyboard empty</button>
+<button onmousedown="sound.playSE(7)">DL sucess?</button>
+<button onmousedown="sound.playSE(8)">Update sucess?</button>
+<button onmousedown="sound.playSE(9)">Mario (Jump)</button>
+<button onmousedown="sound.playSE(10)">Mario (Jump low)</button>
+<button onmousedown="sound.playSE(11)">Mario (Fireball)</button>
+<button onmousedown="sound.playSE(12)">Mario (Coin)</button>
+<button onmousedown="sound.playSE(13)">Mario (Brick block?)</button>
+<button onmousedown="sound.playSE(14)">Mario (Squash)</button>
+<button onmousedown="sound.playSE(15)">Loading 1</button>
+<button onmousedown="sound.playSE(16)">Loading 2</button>
 <br>
 <br>
-<a href="toolbox.php">i wanna go home</a>
+<a href="toolbox.php">Go home</a>
 <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br> aaaAAAaaa-->
 </body>
 </html>

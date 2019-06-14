@@ -152,7 +152,7 @@
 	<img src="asset/common/br.png" class="br">
 	<img src="asset/common/tr.png" class="tr">
 	<img src="asset/common/tl.png" style="position: absolute;">
-	<p class="txtHoverInfoPatch">Download patches that modify your Consoles behaviour!</p>
+	<p class="txtHoverInfoPatch">Download patches that changes your console's behaviour!</p>
 </div>
 <div class="divHoverInfo" id="HoverHomebrew">
 	<img src="asset/common/bl.png" class="bl">

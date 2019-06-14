@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>PLEASE WAIT</title>
+<title>Please Wait...</title>
 	<script type="text/javascript" src="js/wiicore.js"></script>
 	<script type="text/javascript">
     function init()
