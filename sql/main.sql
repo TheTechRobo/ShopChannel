@@ -9,6 +9,17 @@ DROP DATABASE IF EXISTS `osc`;
 CREATE DATABASE `osc` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `osc`;
 
+DROP TABLE IF EXISTS `featured`;
+CREATE TABLE `featured` (
+  `time` int(11) NOT NULL DEFAULT '0',
+  `title` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`time`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `featured` (`time`, `title`) VALUES
+(1561000000,	1),
+(1561310355,	2);
+
 DROP TABLE IF EXISTS `titles`;
 CREATE TABLE `titles` (
   `titleid` int(11) NOT NULL AUTO_INCREMENT,
@@ -29,4 +40,4 @@ INSERT INTO `titles` (`titleid`, `categoryid`, `name`, `description`, `author`, 
 (3,	2,	'cmoc patcher',	'cmoc patcher',	'John Doe',	'Patcher',	1800000000,	1,	888888),
 (4,	2,	'example title 2',	'example',	'John Doe',	'Geh!',	1,	0,	888888);
 
--- 2019-04-03 14:57:26
+-- 2019-06-23 17:51:16
