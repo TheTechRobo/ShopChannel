@@ -13,3 +13,6 @@ gen-external-apklibs
 .classpath
 .project
 atlassian-ide-plugin.xml
+
+# Config file.
+config.php

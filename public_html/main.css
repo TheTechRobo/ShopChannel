@@ -32,6 +32,7 @@
 	color: #FFFFFF;
 	background-color: #34BEED;
 	margin-left: 5px;
+	padding: 2px;
 }
 
 /*Commonly associated with the words at the top of the page. It's black too.*/
@@ -200,7 +201,7 @@
 }
 .imgWarningBottom {
 	margin-left: -9px;
-	opacity = 1;
+	opacity: 1;
 }
 .btnWarnReturn {
 	background: url("asset/button/warnReturn.png");
