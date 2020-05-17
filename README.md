@@ -27,7 +27,6 @@ The team so far consists of:
 - [Spotlight](https://github.com/spotlightishere)
 - [Larsenv](https://github.com/larsenv)
 - [CornierKhan1](https://github.com/caution3)
-- [Billy](https://github.com/InternalLoss)
 
 ### Keep in contact...
 https://discord.gg/by6mR5N
