@@ -1,4 +1,4 @@
-# ShopChannel ![https://discord.gg/by6mR5N](https://img.shields.io/discord/426478571389976577.svg) ![https://github.com/OpenShopChannel/ShopChannel/blob/master/LICENSE.md](https://img.shields.io/badge/Open%20Source-AGPL--3.0-lightgrey.svg)
+# ShopChannel <!--![https://discord.gg/by6mR5N](https://img.shields.io/discord/426478571389976577.svg)--> ![https://github.com/Thetechrobo/ShopChannel/blob/master/LICENSE.md](https://img.shields.io/badge/Open%20Source-AGPL--3.0-lightgrey.svg)
 "Open your shop." We said. "Stop having it be closed."
 
 ## What is this fork??
