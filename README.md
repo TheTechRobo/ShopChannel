@@ -1,6 +1,10 @@
 # ShopChannel ![https://discord.gg/by6mR5N](https://img.shields.io/discord/426478571389976577.svg) ![https://github.com/OpenShopChannel/ShopChannel/blob/master/LICENSE.md](https://img.shields.io/badge/Open%20Source-AGPL--3.0-lightgrey.svg)
 "Open your shop." We said. "Stop having it be closed."
 
+## What is this fork??
+
+This fork is meant to finish, or at least polish off, this early version of OSC. I don't know PHP and have a limited knowledge of Javascript, and cannot test as of now, so it will mainly be obvious changes. See the commit history on github.com/thetechrobo/ShopChannel for more details.
+
 ## What?
 
 The Open Shop Channel is an alternative to The Wii Shop Channel and Homebrew Downloaders for the Nintendo Wii.
