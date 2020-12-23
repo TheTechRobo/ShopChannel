@@ -5,6 +5,10 @@
 
 This fork is meant to finish, or at least polish off, this early version of OSC. I don't know PHP and have a limited knowledge of Javascript, and cannot test as of now, so it will mainly be obvious changes. See the commit history on github.com/thetechrobo/ShopChannel for more details.
 
+## Building
+
+To build, clone this repository into your webserver root. I'll have to investigate further whether you can omit the files in the root of the webserver (above `public_html`). I think you just put all files in `public_html` into your webserver, but I could be wrong.
+
 ## What?
 
 The Open Shop Channel is an alternative to The Wii Shop Channel and Homebrew Downloaders for the Nintendo Wii.
