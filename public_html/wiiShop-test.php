@@ -18,7 +18,7 @@
 <hr size="1" noshade>
 <p><b>Change background (does not apply to 4:3):</b></p>
 <button onmousedown="shop.setWallpaper(0)">Default</button>
-<button onmousedown="shop.setWallpaper(1)"Health & Safety</button>
+<button onmousedown="shop.setWallpaper(1)">Health & Safety</button>
 <button onmousedown="shop.setWallpaper(2)">Just white</button>
 <button onmousedown="shop.setWallpaper(3)">Lines (operation manual)</button>
 <hr size="1" noshade>
